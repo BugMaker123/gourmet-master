@@ -1,0 +1,2652 @@
+{
+  "version": "2.0.0",
+  "last_updated": "2026-10-27",
+  "categories": {
+    "fitness": "科学减脂与高蛋白轻食 (Fitness & Low-Calorie)",
+    "chinese": "中华八大菜系传世名菜 (Eight Great Chinese Cuisines)",
+    "western": "正统西餐与米其林技法 (Classic Western & Michelin)",
+    "cult": "全国硬核区域邪教美食 (Hardcore Regional Cult Delicacies)",
+    "sauce": "灵魂万能酱汁与复合味型库 (Master Sauces & Dressings)"
+  },
+  "recipes": [
+    {
+      "id": "fit_01",
+      "category": "fitness",
+      "subcategory": "高蛋白主菜",
+      "name": "柠檬黑椒爆汁香煎鸡胸肉便当",
+      "region": "现代轻食",
+      "difficulty": "简单",
+      "prep_time_min": 15,
+      "cook_time_min": 8,
+      "base_servings": 1,
+      "macros_per_serving": {
+        "kcal": 385,
+        "protein_g": 42,
+        "carbs_g": 36,
+        "fat_g": 7,
+        "fiber_g": 6
+      },
+      "carb_cycle_day": [
+        "高碳日",
+        "中碳日"
+      ],
+      "science_principle": "3%盐糖水合渗透法(Brining)：盐离子改变肌球蛋白电荷破开交联，强效锁住额外18%水分，彻底告别干柴。",
+      "ingredients": [
+        {
+          "item": "去皮鸡胸肉",
+          "amount": 180,
+          "unit": "g",
+          "note": "提前用3%盐糖水冷藏浸泡3小时"
+        },
+        {
+          "item": "贝贝南瓜",
+          "amount": 150,
+          "unit": "g",
+          "note": "带皮切瓣蒸熟"
+        },
+        {
+          "item": "西兰花",
+          "amount": 100,
+          "unit": "g",
+          "note": "沸水加盐焯烫45秒"
+        },
+        {
+          "item": "圣女果",
+          "amount": 50,
+          "unit": "g",
+          "note": "对半切开"
+        },
+        {
+          "item": "新鲜柠檬汁",
+          "amount": 10,
+          "unit": "ml",
+          "note": "出锅前淋入"
+        },
+        {
+          "item": "现磨黑胡椒粗粒",
+          "amount": 3,
+          "unit": "g",
+          "note": "爆香提味"
+        },
+        {
+          "item": "特级初榨橄榄油",
+          "amount": 2,
+          "unit": "ml",
+          "note": "喷雾润锅"
+        }
+      ],
+      "steps": [
+        "取500ml纯净水融化15g食盐与7.5g零卡糖，投入划浅花刀的鸡胸肉冷藏水合浸泡3小时，取出彻底吸干水分。",
+        "平底不粘锅喷入2ml橄榄油，大火烧至锅温180℃，下鸡胸肉两面各强火煎90秒锁住金黄焦壳。",
+        "转小火，加盖利用锅内水汽焖煎2.5分钟至中心温度达72℃断生。",
+        "淋入鲜柠檬汁，撒现磨黑胡椒粒，离火静置醒肉3分钟后斜刀切厚片，配蒸南瓜与西兰花装盒。"
+      ],
+      "pro_tips": "复热便当时在盒顶盖一张湿厨房纸巾微波90秒，口感如刚出锅般多汁。"
+    },
+    {
+      "id": "fit_02",
+      "category": "fitness",
+      "subcategory": "低碳水产",
+      "name": "免油炸孜然香烤高蛋白龙利鱼柳",
+      "region": "现代轻食",
+      "difficulty": "简单",
+      "prep_time_min": 15,
+      "cook_time_min": 15,
+      "base_servings": 1,
+      "macros_per_serving": {
+        "kcal": 310,
+        "protein_g": 38,
+        "carbs_g": 12,
+        "fat_g": 11,
+        "fiber_g": 3
+      },
+      "carb_cycle_day": [
+        "低碳日",
+        "无碳日"
+      ],
+      "science_principle": "高温热风对流使鱼肉表面蛋白迅速美拉德焦化，锁住内部高含水肌纤维，模拟烧烤摊口感而油脂降低80%。",
+      "ingredients": [
+        {
+          "item": "龙利鱼柳/巴沙鱼柳",
+          "amount": 250,
+          "unit": "g",
+          "note": "解冻后用厨房纸彻底吸干水分"
+        },
+        {
+          "item": "减盐生抽",
+          "amount": 10,
+          "unit": "ml",
+          "note": "底味提鲜"
+        },
+        {
+          "item": "无糖料酒",
+          "amount": 10,
+          "unit": "ml",
+          "note": "去腥"
+        },
+        {
+          "item": "原粒孜然粉",
+          "amount": 5,
+          "unit": "g",
+          "note": "灵魂烧烤香"
+        },
+        {
+          "item": "熟辣椒面",
+          "amount": 3,
+          "unit": "g",
+          "note": "微辣提香"
+        },
+        {
+          "item": "熟白芝麻",
+          "amount": 3,
+          "unit": "g",
+          "note": "增香"
+        },
+        {
+          "item": "橄榄油",
+          "amount": 3,
+          "unit": "ml",
+          "note": "锁水导热"
+        }
+      ],
+      "steps": [
+        "鱼柳切2.5cm见方厚块，加生抽、料酒、姜丝与白胡椒抓匀，冷藏腌制15分钟。",
+        "烤盘铺硅油纸，码入鱼块，表面喷3ml橄榄油，均匀撒满孜然粒、辣椒面与白芝麻。",
+        "烤箱预热200℃（或空气炸锅190℃），烘烤14-16分钟至表皮微焦起泡即可。"
+      ],
+      "pro_tips": "吸水越彻底，烤出来的鱼块越干香紧实，绝不会出水变腥。"
+    },
+    {
+      "id": "fit_03",
+      "category": "fitness",
+      "subcategory": "碳水循环卷饼",
+      "name": "滑蛋嫩牛肉彩椒全麦卷饼",
+      "region": "现代轻食",
+      "difficulty": "中等",
+      "prep_time_min": 15,
+      "cook_time_min": 6,
+      "base_servings": 1,
+      "macros_per_serving": {
+        "kcal": 430,
+        "protein_g": 36,
+        "carbs_g": 44,
+        "fat_g": 12,
+        "fiber_g": 7
+      },
+      "carb_cycle_day": [
+        "中碳日",
+        "高碳日"
+      ],
+      "science_principle": "小苏打弱碱变性法微调牛肉pH值偏离等电点，使肌纤维网格吸水膨胀，配合蛋液低温凝固实现极致滑嫩。",
+      "ingredients": [
+        {
+          "item": "牛里脊薄片",
+          "amount": 110,
+          "unit": "g",
+          "note": "逆纹切2mm薄片"
+        },
+        {
+          "item": "全麦卷饼皮",
+          "amount": 60,
+          "unit": "g",
+          "note": "1张"
+        },
+        {
+          "item": "鲜鸡蛋",
+          "amount": 100,
+          "unit": "g",
+          "note": "2颗打散加15ml脱脂奶"
+        },
+        {
+          "item": "红黄彩椒丝",
+          "amount": 60,
+          "unit": "g",
+          "note": "切丝"
+        },
+        {
+          "item": "紫洋葱丝",
+          "amount": 30,
+          "unit": "g",
+          "note": "切丝"
+        },
+        {
+          "item": "食用小苏打",
+          "amount": 1,
+          "unit": "g",
+          "note": "嫩肉关键"
+        },
+        {
+          "item": "减盐生抽",
+          "amount": 8,
+          "unit": "ml",
+          "note": "调味"
+        }
+      ],
+      "steps": [
+        "牛肉片加1g小苏打、8ml生抽、15ml葱姜水单向抓打上劲，封2g玉米淀粉静置15分钟。",
+        "热锅喷油，下洋葱彩椒炒香，倒入牛肉大火滑炒15秒断生盛出。",
+        "锅中倒入混合牛奶的蛋液，小火推炒至半凝固状态，倒入牛肉彩椒翻匀立即关火利用余温凝结。",
+        "全麦饼皮烘热，铺生菜与滑蛋牛肉，卷紧斜切两半。"
+      ],
+      "pro_tips": "滑蛋必须在7成凝固时关火，全熟后再出锅会老硬脱浆。"
+    },
+    {
+      "id": "fit_04",
+      "category": "fitness",
+      "subcategory": "高纤沙拉",
+      "name": "泰式青柠鲜虾芒果魔芋丝沙拉",
+      "region": "东南亚轻食",
+      "difficulty": "简单",
+      "prep_time_min": 12,
+      "cook_time_min": 3,
+      "base_servings": 1,
+      "macros_per_serving": {
+        "kcal": 255,
+        "protein_g": 28,
+        "carbs_g": 26,
+        "fat_g": 2.5,
+        "fiber_g": 12
+      },
+      "carb_cycle_day": [
+        "低碳日",
+        "无碳日"
+      ],
+      "science_principle": "魔芋葡甘聚糖吸水膨胀30倍延缓胃排空，配合柠檬酸与辣椒素激活TRPV1受体提升产热。",
+      "ingredients": [
+        {
+          "item": "去壳大虾仁",
+          "amount": 150,
+          "unit": "g",
+          "note": "开背去虾线"
+        },
+        {
+          "item": "免煮魔芋结/丝",
+          "amount": 150,
+          "unit": "g",
+          "note": "沸水焯烫1分钟去碱味"
+        },
+        {
+          "item": "小青芒/熟芒果丁",
+          "amount": 35,
+          "unit": "g",
+          "note": "提供果酸香"
+        },
+        {
+          "item": "水果黄瓜丝",
+          "amount": 60,
+          "unit": "g",
+          "note": "切丝"
+        },
+        {
+          "item": "鲜榨青柠汁",
+          "amount": 15,
+          "unit": "ml",
+          "note": "泰式灵魂"
+        },
+        {
+          "item": "特级鱼露",
+          "amount": 8,
+          "unit": "ml",
+          "note": "提鲜"
+        },
+        {
+          "item": "小米辣与蒜末",
+          "amount": 8,
+          "unit": "g",
+          "note": "激香"
+        },
+        {
+          "item": "零卡代糖",
+          "amount": 5,
+          "unit": "g",
+          "note": "平衡酸辣"
+        }
+      ],
+      "steps": [
+        "沸水加姜片料酒，下大虾仁烫90秒至变红卷曲，立刻捞入冰水冰镇锁紧弹牙肉质。",
+        "魔芋丝焯水沥干，与黄瓜丝、芒果丁、薄荷叶铺入深碗。",
+        "将青柠汁、鱼露、零卡糖、蒜末、小米辣与香菜根碎搅匀成泰式汁，淋入碗中抓拌冷藏10分钟。"
+      ],
+      "pro_tips": "虾仁冰镇是保持爽脆不粉的核心步骤。"
+    },
+    {
+      "id": "fit_05",
+      "category": "fitness",
+      "subcategory": "慢炖高蛋白",
+      "name": "番茄无水慢炖厚切高蛋白牛腩",
+      "region": "现代轻食",
+      "difficulty": "中等",
+      "prep_time_min": 15,
+      "cook_time_min": 75,
+      "base_servings": 2,
+      "macros_per_serving": {
+        "kcal": 360,
+        "protein_g": 34,
+        "carbs_g": 18,
+        "fat_g": 14,
+        "fiber_g": 4
+      },
+      "carb_cycle_day": [
+        "中碳日",
+        "高碳日"
+      ],
+      "science_principle": "番茄有机酸加速牛腩胶原蛋白水解为明胶，全程不加一滴水浓缩谷氨酸与番茄红素。",
+      "ingredients": [
+        {
+          "item": "精修牛腩/牛腱子",
+          "amount": 400,
+          "unit": "g",
+          "note": "切3cm大块剔除多余厚脂"
+        },
+        {
+          "item": "熟透大红番茄",
+          "amount": 500,
+          "unit": "g",
+          "note": "去皮切小块"
+        },
+        {
+          "item": "白洋葱丁",
+          "amount": 100,
+          "unit": "g",
+          "note": "提供天然甜味"
+        },
+        {
+          "item": "减盐生抽",
+          "amount": 15,
+          "unit": "ml",
+          "note": "提鲜"
+        },
+        {
+          "item": "无糖番茄膏",
+          "amount": 15,
+          "unit": "g",
+          "note": "浓郁度翻倍"
+        }
+      ],
+      "steps": [
+        "牛腩冷水下锅加姜葱料酒焯水3分钟，温水洗净沥干（切忌用冷水冲导致肉质紧缩）。",
+        "铸铁锅或砂锅底铺满洋葱丁与一半番茄块，码上牛腩，再盖上剩余番茄块、生抽与番茄膏。",
+        "全程不加一滴水，大火烧开后盖紧锅盖转微火慢炖70分钟，番茄完全化为浓汤，牛肉软烂爆汁。"
+      ],
+      "pro_tips": "必须用温水洗焯过水的牛肉，冷水激洗会让胶原蛋白瞬间凝固锁死，久炖不烂。"
+    },
+    {
+      "id": "fit_06",
+      "category": "fitness",
+      "subcategory": "快手早餐",
+      "name": "奇亚籽高蛋白蓝莓隔夜燕麦碗",
+      "region": "欧美轻食",
+      "difficulty": "简单",
+      "prep_time_min": 5,
+      "cook_time_min": 0,
+      "base_servings": 1,
+      "macros_per_serving": {
+        "kcal": 315,
+        "protein_g": 24,
+        "carbs_g": 38,
+        "fat_g": 7,
+        "fiber_g": 9
+      },
+      "carb_cycle_day": [
+        "高碳日",
+        "中碳日"
+      ],
+      "science_principle": "燕麦β-葡聚糖与奇亚籽水溶性膳食纤维在低温下形成凝胶网络，大幅降低淀粉酶水解速率（GI<50）。",
+      "ingredients": [
+        {
+          "item": "生压传统厚燕麦片",
+          "amount": 40,
+          "unit": "g",
+          "note": "选Rolled Oats非速溶"
+        },
+        {
+          "item": "奇亚籽",
+          "amount": 8,
+          "unit": "g",
+          "note": "富含Omega-3"
+        },
+        {
+          "item": "零蔗糖希腊酸奶",
+          "amount": 100,
+          "unit": "g",
+          "note": "高蛋白浓稠基底"
+        },
+        {
+          "item": "分离乳清蛋白粉",
+          "amount": 15,
+          "unit": "g",
+          "note": "香草或原味"
+        },
+        {
+          "item": "无糖杏仁奶/脱脂奶",
+          "amount": 80,
+          "unit": "ml",
+          "note": "浸润液体"
+        },
+        {
+          "item": "新鲜蓝莓",
+          "amount": 40,
+          "unit": "g",
+          "note": "花青素抗氧化"
+        }
+      ],
+      "steps": [
+        "密封玻璃罐中倒入燕麦片、奇亚籽、乳清蛋白粉与脱脂奶搅拌均匀，静置5分钟让奇亚籽初步吸水。",
+        "抹上一层厚厚的无糖希腊酸奶，顶部铺满新鲜蓝莓，密封冷藏过夜（至少6小时）即可直接享用。"
+      ],
+      "pro_tips": "切勿使用速溶即食燕麦泥，生压厚燕麦片冷泡后才有嚼劲且升糖极慢。"
+    },
+    {
+      "id": "fit_07",
+      "category": "fitness",
+      "subcategory": "低碳海鲜",
+      "name": "北欧香草纸包低温慢烤三文鱼",
+      "region": "北欧轻食",
+      "difficulty": "简单",
+      "prep_time_min": 10,
+      "cook_time_min": 12,
+      "base_servings": 1,
+      "macros_per_serving": {
+        "kcal": 340,
+        "protein_g": 32,
+        "carbs_g": 8,
+        "fat_g": 19,
+        "fiber_g": 3
+      },
+      "carb_cycle_day": [
+        "低碳日",
+        "无碳日"
+      ],
+      "science_principle": "法式纸包技法(En Papillote)形成100%饱和蒸汽微环境，防止三文鱼富含的EPA/DHA多不饱和脂肪酸高温氧化流失。",
+      "ingredients": [
+        {
+          "item": "冰鲜大西洋三文鱼排",
+          "amount": 150,
+          "unit": "g",
+          "note": "去鳞带皮"
+        },
+        {
+          "item": "鲜嫩芦笋",
+          "amount": 80,
+          "unit": "g",
+          "note": "去老根"
+        },
+        {
+          "item": "口蘑切片",
+          "amount": 50,
+          "unit": "g",
+          "note": "提供天然鲜味"
+        },
+        {
+          "item": "柠檬薄片",
+          "amount": 2,
+          "unit": "片",
+          "note": "去籽"
+        },
+        {
+          "item": "新鲜莳萝/迷迭香",
+          "amount": 2,
+          "unit": "g",
+          "note": "北欧风味"
+        },
+        {
+          "item": "干白葡萄酒",
+          "amount": 10,
+          "unit": "ml",
+          "note": "蒸汽介质"
+        },
+        {
+          "item": "海盐与黑胡椒",
+          "amount": 2,
+          "unit": "g",
+          "note": "基础调味"
+        }
+      ],
+      "steps": [
+        "裁剪大张烘焙硅油纸，中央铺芦笋与口蘑片，放上三文鱼排。",
+        "撒海盐、黑胡椒，淋10ml干白葡萄酒，鱼面铺柠檬片与新鲜莳萝草。",
+        "将油纸对折，从一端开始折出紧密重叠的月牙折边，彻底密封成鼓起的纸包。",
+        "烤箱190℃烘烤12分钟，纸包高高鼓起，上桌划开瞬间香草柠檬蒸汽扑面而来，鱼肉嫩滑如奶油。"
+      ],
+      "pro_tips": "三文鱼中心温度达52℃即为最佳半熟嫩度，切勿烤过15分钟。"
+    },
+    {
+      "id": "fit_08",
+      "category": "fitness",
+      "subcategory": "高蛋白中式",
+      "name": "减脂版低卡手撕椒麻鸡丝拌黄瓜",
+      "region": "川味轻食",
+      "difficulty": "简单",
+      "prep_time_min": 15,
+      "cook_time_min": 12,
+      "base_servings": 1,
+      "macros_per_serving": {
+        "kcal": 290,
+        "protein_g": 39,
+        "carbs_g": 10,
+        "fat_g": 9,
+        "fiber_g": 4
+      },
+      "carb_cycle_day": [
+        "低碳日",
+        "中碳日"
+      ],
+      "science_principle": "采用85℃微沸浸熟法代替滚水久煮，鸡胸肌原纤维不发生剧烈热收缩，手撕后孔隙吸满椒麻汁。",
+      "ingredients": [
+        {
+          "item": "去皮鸡胸肉/去皮鸡腿肉",
+          "amount": 180,
+          "unit": "g",
+          "note": "整块浸煮"
+        },
+        {
+          "item": "水果黄瓜",
+          "amount": 120,
+          "unit": "g",
+          "note": "拍裂切段"
+        },
+        {
+          "item": "鲜青花椒/藤椒油",
+          "amount": 4,
+          "unit": "ml",
+          "note": "清香麻味"
+        },
+        {
+          "item": "减盐生抽",
+          "amount": 12,
+          "unit": "ml",
+          "note": "调味"
+        },
+        {
+          "item": "香醋",
+          "amount": 8,
+          "unit": "ml",
+          "note": "开胃"
+        },
+        {
+          "item": "零卡糖",
+          "amount": 4,
+          "unit": "g",
+          "note": "提鲜"
+        },
+        {
+          "item": "小米辣与小葱花",
+          "amount": 10,
+          "unit": "g",
+          "note": "点缀"
+        }
+      ],
+      "steps": [
+        "锅中水烧开后放入姜葱料酒与鸡胸肉，立即转最小火保持水面微泡不翻滚（约85℃），加盖焖浸12分钟。",
+        "捞出鸡肉投入冰水中激凉5分钟，用木槌轻敲松散后顺纹理撕成细丝。",
+        "碗中铺拍黄瓜，码上鸡丝，淋入生抽、香醋、零卡糖、2勺浸鸡高汤与4ml藤椒油拌匀即可。"
+      ],
+      "pro_tips": "用木槌或刀背先轻砸鸡胸再手撕，鸡丝蓬松吸汁力提升一倍。"
+    },
+    {
+      "id": "fit_09",
+      "category": "fitness",
+      "subcategory": "高碳充能",
+      "name": "杂粮糙米海苔鲜虾波奇饭 (Poke Bowl)",
+      "region": "夏威夷轻食",
+      "difficulty": "简单",
+      "prep_time_min": 15,
+      "cook_time_min": 5,
+      "base_servings": 1,
+      "macros_per_serving": {
+        "kcal": 465,
+        "protein_g": 34,
+        "carbs_g": 58,
+        "fat_g": 10,
+        "fiber_g": 8
+      },
+      "carb_cycle_day": [
+        "高碳日"
+      ],
+      "science_principle": "重训日高碳高蛋白黄金组合，三色糙米与甜玉米提供阶梯式葡萄糖释放，迅速回充肌糖原。",
+      "ingredients": [
+        {
+          "item": "熟三色糙米饭",
+          "amount": 130,
+          "unit": "g",
+          "note": "提前浸泡蒸熟"
+        },
+        {
+          "item": "熟大虾仁",
+          "amount": 120,
+          "unit": "g",
+          "note": "黑椒煎熟"
+        },
+        {
+          "item": "毛豆仁(熟)",
+          "amount": 40,
+          "unit": "g",
+          "note": "植物蛋白"
+        },
+        {
+          "item": "牛油果切片",
+          "amount": 30,
+          "unit": "g",
+          "note": "优质单不饱和脂肪"
+        },
+        {
+          "item": "紫甘蓝与圣女果",
+          "amount": 80,
+          "unit": "g",
+          "note": "抗氧化"
+        },
+        {
+          "item": "无糖烤海苔碎",
+          "amount": 3,
+          "unit": "g",
+          "note": "增香"
+        },
+        {
+          "item": "和风青芥末油醋汁",
+          "amount": 25,
+          "unit": "ml",
+          "note": "清爽拌汁"
+        }
+      ],
+      "steps": [
+        "大碗底部铺温热的三色糙米饭。",
+        "表面按扇形分区整齐码放黑椒煎虾仁、碧绿毛豆仁、牛油果片、紫甘蓝丝与圣女果。",
+        "中央撒上烤海苔碎与白芝麻，淋入和风青芥末汁拌匀食用。"
+      ],
+      "pro_tips": "三色糙米煮前浸泡2小时，煮时加5ml白醋，米粒软糯不硬芯。"
+    },
+    {
+      "id": "fit_10",
+      "category": "fitness",
+      "subcategory": "无碳代主食",
+      "name": "北非蛋低卡番茄烤双蛋 (Shakshuka)",
+      "region": "地中海轻食",
+      "difficulty": "简单",
+      "prep_time_min": 10,
+      "cook_time_min": 12,
+      "base_servings": 1,
+      "macros_per_serving": {
+        "kcal": 280,
+        "protein_g": 22,
+        "carbs_g": 14,
+        "fat_g": 15,
+        "fiber_g": 4
+      },
+      "carb_cycle_day": [
+        "低碳日",
+        "无碳日"
+      ],
+      "science_principle": "利用番茄、彩椒与孜然慢熬浓缩成低卡蔬菜矩阵，包裹流心水波蛋，高饱腹低升糖。",
+      "ingredients": [
+        {
+          "item": "鲜鸡蛋",
+          "amount": 100,
+          "unit": "g",
+          "note": "2颗"
+        },
+        {
+          "item": "去皮熟番茄丁",
+          "amount": 200,
+          "unit": "g",
+          "note": "切碎"
+        },
+        {
+          "item": "瘦鸡胸肉末/牛肉末",
+          "amount": 50,
+          "unit": "g",
+          "note": "强化蛋白质"
+        },
+        {
+          "item": "红甜椒丁与洋葱丁",
+          "amount": 80,
+          "unit": "g",
+          "note": "切小丁"
+        },
+        {
+          "item": "孜然粉与甜椒粉(Paprika)",
+          "amount": 3,
+          "unit": "g",
+          "note": "北非香料灵魂"
+        },
+        {
+          "item": "蒜末与欧芹碎",
+          "amount": 6,
+          "unit": "g",
+          "note": "提香"
+        }
+      ],
+      "steps": [
+        "铸铁小平底锅喷薄油，炒香洋葱、蒜末、甜椒丁与瘦肉末，加入孜然粉与甜椒粉炒出香味。",
+        "倒入番茄丁小火慢熬6分钟至浓稠起沙，用勺背在酱汁中压出两个凹坑。",
+        "将两颗鸡蛋分别打入凹坑中，加盖小火焖4分钟至蛋白凝固、蛋黄呈半熟流心状，撒欧芹碎出锅。"
+      ],
+      "pro_tips": "蛋白刚凝固即关火，用流心蛋黄拌浓郁番茄肉酱口感绝佳。"
+    },
+    {
+      "id": "fit_11",
+      "category": "fitness",
+      "subcategory": "中式减脂卤味",
+      "name": "五香高蛋白冷吃卤牛腱子",
+      "region": "中式轻食",
+      "difficulty": "中等",
+      "prep_time_min": 20,
+      "cook_time_min": 60,
+      "base_servings": 4,
+      "macros_per_serving": {
+        "kcal": 210,
+        "protein_g": 36,
+        "carbs_g": 2,
+        "fat_g": 6,
+        "fiber_g": 0
+      },
+      "carb_cycle_day": [
+        "高碳日",
+        "中碳日",
+        "低碳日",
+        "无碳日"
+      ],
+      "science_principle": "关火后浸泡冷却过程利用热胀冷缩负压效应，将卤汁鲜味分子吸入肌束间隙，筋膜明胶凝结使切片不散。",
+      "ingredients": [
+        {
+          "item": "牛前腱子芯(金钱腱)",
+          "amount": 600,
+          "unit": "g",
+          "note": "筋花均匀脂肪极低"
+        },
+        {
+          "item": "减盐生抽",
+          "amount": 40,
+          "unit": "ml",
+          "note": "提鲜"
+        },
+        {
+          "item": "老抽",
+          "amount": 10,
+          "unit": "ml",
+          "note": "上色"
+        },
+        {
+          "item": "无糖黄豆酱",
+          "amount": 20,
+          "unit": "g",
+          "note": "酱香醇厚"
+        },
+        {
+          "item": "卤料包(八角/桂皮/香叶/草果/花椒)",
+          "amount": 15,
+          "unit": "g",
+          "note": "天然香料"
+        },
+        {
+          "item": "零卡糖",
+          "amount": 8,
+          "unit": "g",
+          "note": "柔和咸味"
+        }
+      ],
+      "steps": [
+        "牛腱整块冷水下锅焯透血沫，温水洗净。",
+        "入汤锅或高压锅，加没过牛肉的热水、生抽、老抽、黄豆酱、零卡糖、葱姜与卤料包，小火慢炖50分钟至筷子能扎透。",
+        "关火后切勿捞出，连汤带肉放入冰箱冷藏浸泡过夜（6小时以上），取出逆纹切薄片。"
+      ],
+      "pro_tips": "热切牛腱必碎，必须冷藏浸泡定型后再切，片薄如纸且筋花透亮。"
+    },
+    {
+      "id": "fit_12",
+      "category": "fitness",
+      "subcategory": "无米炒饭",
+      "name": "生酮花椰菜米黄金虾仁伪炒饭",
+      "region": "生酮轻食",
+      "difficulty": "简单",
+      "prep_time_min": 10,
+      "cook_time_min": 6,
+      "base_servings": 1,
+      "macros_per_serving": {
+        "kcal": 265,
+        "protein_g": 28,
+        "carbs_g": 11,
+        "fat_g": 12,
+        "fiber_g": 5
+      },
+      "carb_cycle_day": [
+        "低碳日",
+        "无碳日"
+      ],
+      "science_principle": "白花椰菜切碎成米粒大小后干锅焙干水汽，质地高度还原米饭颗粒感，热量仅为白米饭的1/6。",
+      "ingredients": [
+        {
+          "item": "有机白花椰菜(菜花)",
+          "amount": 220,
+          "unit": "g",
+          "note": "料理机打成米粒大小"
+        },
+        {
+          "item": "鲜虾仁",
+          "amount": 100,
+          "unit": "g",
+          "note": "切大丁"
+        },
+        {
+          "item": "鲜鸡蛋",
+          "amount": 50,
+          "unit": "g",
+          "note": "1颗，蛋黄拌花菜米"
+        },
+        {
+          "item": "青豆与胡萝卜丁",
+          "amount": 40,
+          "unit": "g",
+          "note": "配色"
+        },
+        {
+          "item": "小葱花与生抽",
+          "amount": 10,
+          "unit": "g",
+          "note": "激香"
+        }
+      ],
+      "steps": [
+        "花椰菜洗净彻底甩干水分，切取花冠打成米粒状。",
+        "不放油干锅中火翻炒花菜米2分钟烘走水汽盛出，趁热拌入1颗生蛋黄。",
+        "锅喷少许油，炒熟蛋白、虾仁丁与青豆胡萝卜，倒入裹满蛋黄的花菜米大火翻炒90秒，烹入生抽与葱花出锅。"
+      ],
+      "pro_tips": "花菜米先无油干炒脱水，炒出来才能粒粒分明不软烂。"
+    },
+    {
+      "id": "chn_01",
+      "category": "chinese",
+      "subcategory": "川菜 (Sichuan)",
+      "name": "古法汉源大红袍麻婆豆腐",
+      "region": "四川成都",
+      "difficulty": "高级",
+      "prep_time_min": 15,
+      "cook_time_min": 10,
+      "base_servings": 2,
+      "macros_per_serving": {
+        "kcal": 340,
+        "protein_g": 22,
+        "carbs_g": 14,
+        "fat_g": 22,
+        "fiber_g": 3
+      },
+      "science_principle": "盐水微沸养豆腐利用渗透压排出豆腥水并强化大豆蛋白凝胶网；三次渐进勾芡使淀粉糊化层锁死红油不吐水（油包芡）。",
+      "ingredients": [
+        {
+          "item": "石膏嫩豆腐/南豆腐",
+          "amount": 400,
+          "unit": "g",
+          "note": "切1.5cm见方丁"
+        },
+        {
+          "item": "黄牛肉末",
+          "amount": 80,
+          "unit": "g",
+          "note": "炒制酥香臊子"
+        },
+        {
+          "item": "鹃城红油郫县豆瓣酱",
+          "amount": 30,
+          "unit": "g",
+          "note": "剁细"
+        },
+        {
+          "item": "永川豆豉碎",
+          "amount": 10,
+          "unit": "g",
+          "note": "增醇香"
+        },
+        {
+          "item": "刀口辣椒面",
+          "amount": 5,
+          "unit": "g",
+          "note": "增红亮色泽"
+        },
+        {
+          "item": "汉源大红袍花椒面",
+          "amount": 4,
+          "unit": "g",
+          "note": "出锅撒面灵魂"
+        },
+        {
+          "item": "青蒜苗花",
+          "amount": 30,
+          "unit": "g",
+          "note": "斜切小段"
+        },
+        {
+          "item": "豌豆水淀粉",
+          "amount": 45,
+          "unit": "ml",
+          "note": "分三次勾芡"
+        }
+      ],
+      "steps": [
+        "【盐水养豆腐】豆腐丁入加3g盐的微沸水中小火浸养3分钟，捞出沥水保持温热。",
+        "【煸酥牛肉臊】熟菜籽油烧热，下牛肉末中火慢煸至水汽干透、肉粒金黄酥脆盛出。",
+        "【炒香红油底】底油小火下剁细郫县豆瓣炒出红油，下豆豉碎、姜蒜末与辣椒面炒出浓郁酱香。",
+        "【烧煨入味】注入200ml鲜高汤烧开，滑入豆腐丁与酥牛肉末，加少许生抽与白糖，中小火慢烧3分钟（用勺背轻推勿翻铲）。",
+        "【三次推铲勾芡】第一遍淋15ml水淀粉轻推初融；30秒后淋第二遍15ml挂汁；再淋第三遍15ml并撒青蒜苗，淋5ml滚油锁亮。",
+        "【撒花椒面】盛入滚烫煲仔，表面撒满现焙汉源花椒面，达成麻、辣、烫、嫩、酥、香、鲜、活八字诀。"
+      ],
+      "pro_tips": "勾芡如果不分三次，豆腐内部水分渗出会导致盘底泄水、红油与芡汁分离。"
+    },
+    {
+      "id": "chn_02",
+      "category": "chinese",
+      "subcategory": "川菜 (Sichuan)",
+      "name": "传统糊辣荔枝口宫保鸡丁",
+      "region": "四川成都",
+      "difficulty": "高级",
+      "prep_time_min": 20,
+      "cook_time_min": 3,
+      "base_servings": 2,
+      "macros_per_serving": {
+        "kcal": 410,
+        "protein_g": 28,
+        "carbs_g": 18,
+        "fat_g": 24,
+        "fiber_g": 2
+      },
+      "science_principle": "高温短时爆炒（油温180℃），干辣椒与花椒先煸至微褐产生吡嗪类糊辣香气，烹入糖醋比例1.2:1的碗汁瞬间汽化挂汁。",
+      "ingredients": [
+        {
+          "item": "去骨鸡腿肉",
+          "amount": 250,
+          "unit": "g",
+          "note": "拍松切1.5cm丁，蛋清淀粉上浆"
+        },
+        {
+          "item": "去皮油酥花生米",
+          "amount": 60,
+          "unit": "g",
+          "note": "临出锅下保持绝对酥脆"
+        },
+        {
+          "item": "大葱白段",
+          "amount": 60,
+          "unit": "g",
+          "note": "切1.5cm圆段"
+        },
+        {
+          "item": "二荆条干辣椒节",
+          "amount": 15,
+          "unit": "g",
+          "note": "去籽切段"
+        },
+        {
+          "item": "红花椒",
+          "amount": 4,
+          "unit": "g",
+          "note": "去籽"
+        },
+        {
+          "item": "宫保黄金碗汁(保宁醋15ml+白糖18g+生抽12ml+老抽2ml+黄酒10ml+水淀粉12ml)",
+          "amount": 69,
+          "unit": "ml",
+          "note": "提前搅匀"
+        }
+      ],
+      "steps": [
+        "鸡腿肉丁加盐、黄酒、半个蛋清与10g水淀粉抓匀上浆，封少许熟油。",
+        "炙锅滑油后留底油，下干辣椒节与花椒小火煸至辣椒呈棕红微焦，激发出浓郁糊辣香。",
+        "转猛火倒入鸡丁快速滑炒12秒至变白散开，投入姜蒜片与大葱段翻炒5秒出葱香。",
+        "顺锅边一气烹入兑好的宫保碗汁，大火翻颠抛锅5秒使亮油紧包鸡丁。",
+        "关火瞬间倒入酥花生米翻匀即刻装盘（盘底只见亮油不见多余汤汁）。"
+      ],
+      "pro_tips": "正宗川式宫保鸡丁绝不加黄瓜丁、胡萝卜丁和青豆，那是快餐改良版。"
+    },
+    {
+      "id": "chn_03",
+      "category": "chinese",
+      "subcategory": "粤菜 (Cantonese)",
+      "name": "顺德古法脆皮白切鸡",
+      "region": "广东顺德",
+      "difficulty": "高级",
+      "prep_time_min": 15,
+      "cook_time_min": 30,
+      "base_servings": 4,
+      "macros_per_serving": {
+        "kcal": 320,
+        "protein_g": 31,
+        "carbs_g": 2,
+        "fat_g": 20,
+        "fiber_g": 0
+      },
+      "science_principle": "88℃-90℃微沸虾眼水慢浸使肌球蛋白温和变性不脱水；0℃冰水急速冷却令皮下胶原蛋白收缩凝结成透明脆皮冻。",
+      "ingredients": [
+        {
+          "item": "清远走地三黄鸡",
+          "amount": 1200,
+          "unit": "g",
+          "note": "净膛整鸡"
+        },
+        {
+          "item": "鲜沙姜(山奈)",
+          "amount": 30,
+          "unit": "g",
+          "note": "拍碎剁成细蓉"
+        },
+        {
+          "item": "红葱头与小葱白",
+          "amount": 30,
+          "unit": "g",
+          "note": "切细末"
+        },
+        {
+          "item": "纯正浓香花生油",
+          "amount": 40,
+          "unit": "ml",
+          "note": "烧至200℃泼蘸料"
+        },
+        {
+          "item": "黄栀子",
+          "amount": 2,
+          "unit": "颗",
+          "note": "拍碎入汤赋天然金黄色"
+        }
+      ],
+      "steps": [
+        "深汤桶加足水，下姜葱、黄酒与拍碎黄栀子烧开，调小火至水面仅冒细密小泡（88℃-90℃虾眼水）。",
+        "手提鸡颈，将鸡身浸入汤中5秒提起沥干腔内水，重复“三提三浸”使鸡腔内外温度一致。",
+        "将整鸡完全浸没，保持89℃微火绝不翻滚，慢浸25分钟（大腿最厚处扎针无血水冒出）。",
+        "捞出立即投入加满冰块的冰饮用水中冰镇15分钟，捞出沥干，鸡皮刷一层熟花生油斩件装盘。",
+        "沙姜蓉、葱白末加盐置碟中，浇入200℃滚烫花生油激香佐食。"
+      ],
+      "pro_tips": "切忌大火滚煮，沸水翻滚会直接把鸡皮煮破、鸡胸肉煮成木柴。"
+    },
+    {
+      "id": "chn_04",
+      "category": "chinese",
+      "subcategory": "粤菜 (Cantonese)",
+      "name": "广式酒楼清蒸游水东星斑/海鲈鱼",
+      "region": "广东广州",
+      "difficulty": "中等",
+      "prep_time_min": 12,
+      "cook_time_min": 8,
+      "base_servings": 3,
+      "macros_per_serving": {
+        "kcal": 220,
+        "protein_g": 34,
+        "carbs_g": 3,
+        "fat_g": 8,
+        "fiber_g": 0
+      },
+      "science_principle": "垫筷悬空蒸汽360度对流循环，精确到秒控制蛋白质刚好凝固（骨边离肉微透明），倒掉腥蒸鱼水防止三甲胺回吸。",
+      "ingredients": [
+        {
+          "item": "鲜活海鲈鱼/石斑鱼",
+          "amount": 650,
+          "unit": "g",
+          "note": "去腮去黑膜，背部深划两刀"
+        },
+        {
+          "item": "大葱白与生姜丝",
+          "amount": 40,
+          "unit": "g",
+          "note": "切极细针丝泡冰水卷曲"
+        },
+        {
+          "item": "红甜椒丝",
+          "amount": 10,
+          "unit": "g",
+          "note": "配色"
+        },
+        {
+          "item": "广式蒸鱼豉油",
+          "amount": 35,
+          "unit": "ml",
+          "note": "加5g冰糖与10ml高汤微煮提鲜"
+        },
+        {
+          "item": "花生油与猪油混合油",
+          "amount": 25,
+          "unit": "ml",
+          "note": "泼葱丝激香"
+        }
+      ],
+      "steps": [
+        "鱼腹内壁黑膜与贴骨淤血彻底刮洗干净，鱼背厚肉处顺骨划开1cm深口。",
+        "蒸盘底横架两根竹筷，将鱼架空置于筷上，鱼身垫姜片葱段（鱼身绝对不抹盐，抹盐会使鱼肉脱水发硬）。",
+        "蒸锅水大沸冒浓烟后入锅，大火猛蒸7分钟，关火虚蒸1分钟立即出锅。",
+        "抽掉竹筷与旧葱姜，彻底倒净盘底腥味蒸鱼水，铺满冰水泡卷的葱姜红椒丝。",
+        "先淋入210℃滚烫混合油爆香葱丝，再沿盘边淋入温热的秘制蒸鱼豉油。"
+      ],
+      "pro_tips": "必须先泼热油爆香葱丝，再沿盘边淋豉油；若先倒豉油再泼油，油温被豉油冷却且豉油飞溅。"
+    },
+    {
+      "id": "chn_05",
+      "category": "chinese",
+      "subcategory": "鲁菜 (Shandong)",
+      "name": "国宴经典葱烧海参",
+      "region": "山东济南",
+      "difficulty": "高级",
+      "prep_time_min": 30,
+      "cook_time_min": 15,
+      "base_servings": 2,
+      "macros_per_serving": {
+        "kcal": 280,
+        "protein_g": 26,
+        "carbs_g": 12,
+        "fat_g": 14,
+        "fiber_g": 2
+      },
+      "science_principle": "章丘大葱在猪油中慢火美拉德焦糖化提取脂溶性硫化物葱香，借浓高汤与微糖色渗透进无味的海参胶原蛋白网孔。",
+      "ingredients": [
+        {
+          "item": "水发刺参",
+          "amount": 300,
+          "unit": "g",
+          "note": "3-4只整参"
+        },
+        {
+          "item": "章丘大葱白",
+          "amount": 150,
+          "unit": "g",
+          "note": "切4cm长段"
+        },
+        {
+          "item": "浓白鸡高汤",
+          "amount": 200,
+          "unit": "ml",
+          "note": "赋味核心"
+        },
+        {
+          "item": "冰糖",
+          "amount": 12,
+          "unit": "g",
+          "note": "炒浅糖色"
+        },
+        {
+          "item": "鲁味生抽与老抽",
+          "amount": 20,
+          "unit": "ml",
+          "note": "调色提鲜"
+        },
+        {
+          "item": "熟猪油与花生油",
+          "amount": 40,
+          "unit": "ml",
+          "note": "炼制头道葱油"
+        }
+      ],
+      "steps": [
+        "【炼头道葱油】锅下猪油与花生油，放入拍松的大葱白段，小火慢炸至大葱金黄微褐、葱香四溢，捞出金黄葱段，滤出浓葱油。",
+        "【海参高汤煨】水发海参入加姜酒的高汤中微沸焯煨2分钟去腥捞出。",
+        "【烧制收浓汁】锅留20ml葱油，下冰糖炒出琥珀色，烹黄酒、生抽与200ml高汤，下海参小火慢煨5分钟入味。",
+        "【合葱抱芡】放入炸好的金黄葱段同烧1分钟，分次淋入水淀粉大火收浓汤汁紧包海参，最后淋一勺热葱油亮色装盘。"
+      ],
+      "pro_tips": "海参极怕油腻但又喜油香，必须先用高汤煨透再入葱油浓汁抱芡。"
+    },
+    {
+      "id": "chn_06",
+      "category": "chinese",
+      "subcategory": "苏菜 (Jiangsu)",
+      "name": "姑苏名肴松鼠鳜鱼",
+      "region": "江苏苏州",
+      "difficulty": "高级",
+      "prep_time_min": 25,
+      "cook_time_min": 8,
+      "base_servings": 4,
+      "macros_per_serving": {
+        "kcal": 460,
+        "protein_g": 28,
+        "carbs_g": 38,
+        "fat_g": 22,
+        "fiber_g": 1
+      },
+      "science_principle": "菱形麦穗花刀增大300%表面积，200℃高温复炸使淀粉糊瞬间脱水定型成坚硬多孔酥壳，浇滚烫糖醋汁时水汽剧烈沸腾发出松鼠吱吱声。",
+      "ingredients": [
+        {
+          "item": "鲜活鳜鱼(桂鱼)",
+          "amount": 750,
+          "unit": "g",
+          "note": "去骨留尾，肉剞菱形麦穗花刀"
+        },
+        {
+          "item": "玉米淀粉",
+          "amount": 100,
+          "unit": "g",
+          "note": "均匀拍入每一道花刀缝隙"
+        },
+        {
+          "item": "熟松子仁与青豌豆",
+          "amount": 30,
+          "unit": "g",
+          "note": "点缀增香"
+        },
+        {
+          "item": "番茄沙司",
+          "amount": 60,
+          "unit": "g",
+          "note": "提供红亮酸甜基底"
+        },
+        {
+          "item": "白砂糖",
+          "amount": 50,
+          "unit": "g",
+          "note": "甜酸平衡"
+        },
+        {
+          "item": "镇江香醋/白醋",
+          "amount": 35,
+          "unit": "ml",
+          "note": "提酸"
+        }
+      ],
+      "steps": [
+        "鳜鱼去头留尾剔除脊骨，鱼肉面先直切再斜切深至鱼皮（勿破皮）的菱形花刀，加黄酒盐腌制后，拍满干淀粉并抖净余粉。",
+        "油锅烧至七成热（190℃），手提鱼尾将鱼肉弯曲，先用勺舀热油淋浇花刀使其开花定型，再整鱼入锅炸至金黄酥透捞出。",
+        "油温升至八成热（220℃），放入鱼身复炸20秒至极致酥脆，摆入盘中翘首昂尾。",
+        "另起锅下番茄沙司、白糖、白醋、少许盐与清水熬开，淋水淀粉勾玻璃亮芡，加熟油与松子仁，趁滚烫浇在鱼身上滋滋作响。"
+      ],
+      "pro_tips": "拍粉后必须彻底抖掉浮粉，否则油锅发黑且花刀粘连无法炸散。"
+    },
+    {
+      "id": "chn_07",
+      "category": "chinese",
+      "subcategory": "浙菜 (Zhejiang)",
+      "name": "古法无水花雕本帮红烧肉",
+      "region": "江浙沪",
+      "difficulty": "中等",
+      "prep_time_min": 15,
+      "cook_time_min": 65,
+      "base_servings": 4,
+      "macros_per_serving": {
+        "kcal": 520,
+        "protein_g": 20,
+        "carbs_g": 22,
+        "fat_g": 38,
+        "fiber_g": 0
+      },
+      "science_principle": "全程以绍兴花雕酒代替水，乙醇与猪肉游离脂肪酸发生酯化反应生成芳香酯类，彻底解腻并赋予浓郁酒香，胶原蛋白融化形成自来芡。",
+      "ingredients": [
+        {
+          "item": "精选五花三层五花肉",
+          "amount": 600,
+          "unit": "g",
+          "note": "切3cm见方大块"
+        },
+        {
+          "item": "五年陈绍兴花雕酒",
+          "amount": 350,
+          "unit": "ml",
+          "note": "全程不加一滴水"
+        },
+        {
+          "item": "黄冰糖",
+          "amount": 45,
+          "unit": "g",
+          "note": "炒糖色与收汁亮色"
+        },
+        {
+          "item": "特级生抽与老抽",
+          "amount": 35,
+          "unit": "ml",
+          "note": "复合酱香"
+        },
+        {
+          "item": "小葱结与生姜片",
+          "amount": 30,
+          "unit": "g",
+          "note": "垫底防粘"
+        }
+      ],
+      "steps": [
+        "五花肉冷水焯水洗净，入干锅小火慢煸至四面微黄、逼出多余猪油倒出。",
+        "锅留底油下25g冰糖小火炒至琥珀色冒细泡，下肉块翻炒均匀挂上糖色。",
+        "转入砂锅（底垫葱结姜片），倒入整整350ml花雕酒、生抽、老抽与剩余20g冰糖。",
+        "大火烧开后盖盖微火慢煨55分钟，揭盖转大火不断舀汁浇淋收浓，汤汁自然乳化包裹肉块，红亮如玛瑙、入口即化。"
+      ],
+      "pro_tips": "收汁阶段严禁加水淀粉，依靠猪皮溶出的明胶与冰糖自然浓缩而成的自来芡才够浓油赤酱。"
+    },
+    {
+      "id": "chn_08",
+      "category": "chinese",
+      "subcategory": "闽菜 (Fujian)",
+      "name": "闽都经典酸甜十字花刀荔枝肉",
+      "region": "福建福州",
+      "difficulty": "中等",
+      "prep_time_min": 20,
+      "cook_time_min": 8,
+      "base_servings": 3,
+      "macros_per_serving": {
+        "kcal": 390,
+        "protein_g": 24,
+        "carbs_g": 32,
+        "fat_g": 18,
+        "fiber_g": 2
+      },
+      "science_principle": "猪瘦肉细密十字花刀裹红曲粉与水粉糊，入热油后内外受热差异使肉片向内剧烈卷曲成球状，形色酷似带壳红荔枝。",
+      "ingredients": [
+        {
+          "item": "猪里脊肉",
+          "amount": 300,
+          "unit": "g",
+          "note": "斜切大片再剞细密十字花刀"
+        },
+        {
+          "item": "马蹄(荸荠)",
+          "amount": 100,
+          "unit": "g",
+          "note": "去皮切厚片"
+        },
+        {
+          "item": "福建红糟/红曲粉",
+          "amount": 8,
+          "unit": "g",
+          "note": "赋予天然荔枝红"
+        },
+        {
+          "item": "地瓜粉(红薯淀粉)",
+          "amount": 60,
+          "unit": "g",
+          "note": "挂糊酥脆关键"
+        },
+        {
+          "item": "荔枝酸甜汁(白醋20ml+白糖25g+生抽10ml+香油+蒜末+高汤30ml)",
+          "amount": 85,
+          "unit": "ml",
+          "note": "传统不用番茄酱"
+        }
+      ],
+      "steps": [
+        "里脊肉片剞十字花刀后切小块，加红糟、黄酒、盐抓匀，拌入浓地瓜粉水糊。",
+        "油温六成热（170℃），逐片下入肉块与马蹄，肉片遇热瞬间卷曲成荔枝球，复炸至外酥里嫩捞出。",
+        "锅留底油爆香蒜末，倒入荔枝酸甜汁烧沸勾薄芡，倒入炸好的荔枝肉与马蹄快速翻颠3秒出锅。"
+      ],
+      "pro_tips": "正宗福州传统荔枝肉用红糟上色、白醋白糖调味，不放番茄酱。"
+    },
+    {
+      "id": "chn_09",
+      "category": "chinese",
+      "subcategory": "湘菜 (Hunan)",
+      "name": "猛火镬气8秒小炒黄牛肉",
+      "region": "湖南长沙",
+      "difficulty": "高级",
+      "prep_time_min": 15,
+      "cook_time_min": 1,
+      "base_servings": 2,
+      "macros_per_serving": {
+        "kcal": 330,
+        "protein_g": 29,
+        "carbs_g": 8,
+        "fat_g": 20,
+        "fiber_g": 2
+      },
+      "science_principle": "240℃极高温铁锅使牛肉表面瞬间焦化，内部水分来不及渗出即已完成熟化，全程锅内停留不超过12秒。",
+      "ingredients": [
+        {
+          "item": "黄牛里脊/吊龙肉",
+          "amount": 250,
+          "unit": "g",
+          "note": "逆纹横切1.5mm飞薄片"
+        },
+        {
+          "item": "湖南本地红小米辣与青线椒",
+          "amount": 60,
+          "unit": "g",
+          "note": "斜切圈"
+        },
+        {
+          "item": "黄色泡野山椒碎",
+          "amount": 20,
+          "unit": "g",
+          "note": "酸辣提魂"
+        },
+        {
+          "item": "香菜段与芹菜段",
+          "amount": 40,
+          "unit": "g",
+          "note": "清香脆嫩"
+        },
+        {
+          "item": "拍蒜子与老姜末",
+          "amount": 25,
+          "unit": "g",
+          "note": "重蒜姜增香"
+        }
+      ],
+      "steps": [
+        "黄牛肉片加生抽10ml、老抽3ml、蚝油8g、少许黑胡椒抓至粘手，封10ml熟茶油锁水（不放淀粉防粘锅糊底）。",
+        "熟铁锅干烧至冒浓青烟，下猪油与菜籽油，投入拍蒜、姜末、野山椒与鲜辣椒圈猛火煸炒10秒出辣香推至锅边。",
+        "倒入牛肉片快速滑散，猛火颠炒8秒至肉色刚变，立刻投入香菜芹菜段，顺锅边烹入一勺生抽，翻颠2下出锅。"
+      ],
+      "pro_tips": "湘式小炒牛肉不拍干淀粉，全靠高温猛火和逆纹薄切实现脆嫩无渣。"
+    },
+    {
+      "id": "chn_10",
+      "category": "chinese",
+      "subcategory": "徽菜 (Anhui)",
+      "name": "徽州非遗古法红烧臭鳜鱼",
+      "region": "安徽黄山",
+      "difficulty": "高级",
+      "prep_time_min": 20,
+      "cook_time_min": 18,
+      "base_servings": 3,
+      "macros_per_serving": {
+        "kcal": 380,
+        "protein_g": 36,
+        "carbs_g": 8,
+        "fat_g": 22,
+        "fiber_g": 1
+      },
+      "science_principle": "淡盐水木桶压石20℃轻度厌氧发酵6天，蛋白质分解为游离氨基酸，肌纤维脱水重排呈蒜瓣状紧实结构，闻臭食香。",
+      "ingredients": [
+        {
+          "item": "徽州腌制发酵臭鳜鱼",
+          "amount": 650,
+          "unit": "g",
+          "note": "洗净彻底擦干表面水分，两面划花刀"
+        },
+        {
+          "item": "五花肉丁与冬笋丁",
+          "amount": 80,
+          "unit": "g",
+          "note": "增脂提鲜"
+        },
+        {
+          "item": "猪油与菜籽油",
+          "amount": 40,
+          "unit": "ml",
+          "note": "煎鱼防粘"
+        },
+        {
+          "item": "郫县豆瓣酱与红辣椒",
+          "amount": 20,
+          "unit": "g",
+          "note": "微辣压腥"
+        },
+        {
+          "item": "高汤与绍酒",
+          "amount": 250,
+          "unit": "ml",
+          "note": "慢火收浓汁"
+        }
+      ],
+      "steps": [
+        "臭鳜鱼洗去表面盐卤，用干毛巾彻底吸干内外水分。",
+        "热锅下猪油与菜籽油烧至七成热，下鳜鱼两面煎至金黄硬挺捞出。",
+        "锅留底油，下五花肉丁煸出油，下姜蒜瓣、冬笋丁、豆瓣酱炒出红油，烹绍酒与高汤。",
+        "放入鳜鱼，中小火慢煨12分钟，期间不断用勺舀汤汁浇淋鱼背，待汤汁浓稠自然抱芡，撒青蒜花出锅，鱼肉呈一瓣瓣蒜瓣肉。"
+      ],
+      "pro_tips": "臭鳜鱼自带发酵咸度，烧制时严禁额外加盐，仅靠少量生抽豆瓣提鲜。"
+    },
+    {
+      "id": "west_01",
+      "category": "western",
+      "subcategory": "米其林主菜",
+      "name": "经典法式酥皮惠灵顿牛排 (Beef Wellington)",
+      "region": "英国/法国",
+      "difficulty": "殿堂级",
+      "prep_time_min": 60,
+      "cook_time_min": 28,
+      "base_servings": 4,
+      "macros_per_serving": {
+        "kcal": 680,
+        "protein_g": 46,
+        "carbs_g": 34,
+        "fat_g": 38,
+        "fiber_g": 2
+      },
+      "science_principle": "蘑菇杜克塞斯酱(Duxelles)干煸排尽水分作为吸湿隔热缓冲层，配合帕尔玛火腿与可丽饼阻断肉汁渗出，实现外层酥皮200℃金黄酥脆而中心菲力恒定52℃三分熟。",
+      "ingredients": [
+        {
+          "item": "安格斯牛菲力中段(Chateaubriand)",
+          "amount": 600,
+          "unit": "g",
+          "note": "修齐圆柱形"
+        },
+        {
+          "item": "褐菇与牛肝菌碎(Duxelles)",
+          "amount": 400,
+          "unit": "g",
+          "note": "打成细粒干锅煸干全部水分"
+        },
+        {
+          "item": "意大利帕尔玛火腿(Prosciutto)",
+          "amount": 80,
+          "unit": "g",
+          "note": "8片薄切"
+        },
+        {
+          "item": "法式黄油千层酥皮(Puff Pastry)",
+          "amount": 250,
+          "unit": "g",
+          "note": "冷藏保持低温"
+        },
+        {
+          "item": "英式第戎芥末酱",
+          "amount": 25,
+          "unit": "g",
+          "note": "趁热涂抹锁味"
+        },
+        {
+          "item": "纯蛋黄液",
+          "amount": 30,
+          "unit": "g",
+          "note": "刷酥皮表面金黄上色"
+        }
+      ],
+      "steps": [
+        "【锁边与涂抹】牛菲力撒海盐黑椒，230℃高温铸铁锅四面各强火煎30秒锁色，立即离火趁热刷满第戎芥末酱，冷藏冷却。",
+        "【炒干蘑菇泥】蘑菇碎与干葱碎入无油干锅中小火煸炒20分钟，直至水汽100%蒸发成深褐色干膏状，摊凉。",
+        "【火腿紧裹】保鲜膜上交错铺满帕尔玛火腿，均匀涂抹蘑菇泥，放上冰凉牛菲力，借保鲜膜卷成极紧实的圆柱体，冷藏定型30分钟。",
+        "【包裹千层酥皮】展开冷藏千层酥皮，裹入火腿牛肉卷，切除多余边角捏紧封口，表面覆盖菱形雕花酥皮网，刷纯蛋黄液，再冷藏15分钟。",
+        "【探针控温烘烤】210℃预热烤箱烘烤25-28分钟，插入中心探针温度达48℃时立即出炉，静置醒肉10分钟（余温升至53℃完美三分熟）后用锯齿刀厚切。"
+      ],
+      "pro_tips": "切开酥皮底塌湿的唯一原因就是蘑菇泥没炒干或牛排没彻底冷却就包酥皮。"
+    },
+    {
+      "id": "west_02",
+      "category": "western",
+      "subcategory": "牛排科学",
+      "name": "反向低温慢烤爆煎厚切肋眼牛排 (Reverse Sear Ribeye)",
+      "region": "美式/现代西餐",
+      "difficulty": "高级",
+      "prep_time_min": 10,
+      "cook_time_min": 40,
+      "base_servings": 2,
+      "macros_per_serving": {
+        "kcal": 580,
+        "protein_g": 48,
+        "carbs_g": 2,
+        "fat_g": 42,
+        "fiber_g": 0
+      },
+      "science_principle": "105℃低温烤箱慢热激活组织蛋白酶嫩化肉质并烘干表皮水分，随后240℃极高温45秒瞬时完成美拉德反应，彻底消除传统煎法外圈的灰色过熟老肉带(Gray Band)。",
+      "ingredients": [
+        {
+          "item": "厚切4cm谷饲肋眼牛排(Ribeye)",
+          "amount": 450,
+          "unit": "g",
+          "note": "M5-M7或Prime级"
+        },
+        {
+          "item": "发酵无盐黄油",
+          "amount": 30,
+          "unit": "g",
+          "note": "Basting淋油增香"
+        },
+        {
+          "item": "新鲜迷迭香与百里香",
+          "amount": 5,
+          "unit": "g",
+          "note": "草本浸润"
+        },
+        {
+          "item": "整颗拍扁大蒜",
+          "amount": 15,
+          "unit": "g",
+          "note": "带皮拍裂"
+        },
+        {
+          "item": "马尔顿片状海盐与黑胡椒",
+          "amount": 5,
+          "unit": "g",
+          "note": "调味"
+        }
+      ],
+      "steps": [
+        "厚切牛排双面撒粗海盐置于烤网架上，送入105℃低温烤箱慢烤30-35分钟，直至中心探针温度达到46℃（三分熟预备点）或51℃（五分熟预备点）。",
+        "取出牛排，此时表面已完全干燥。",
+        "厚底铸铁锅大火干烧至240℃冒明显青烟，淋少许牛油或高烟点鳄梨油，放入牛排强火煎45秒翻面。",
+        "立即投入30g黄油、拍蒜与迷迭香，倾斜锅身用勺疯狂舀起泡沫黄油连续浇淋牛排表面40秒。",
+        "出锅直接切块（反向慢烤已完成内部温度均衡，仅需静置2分钟即可切开，切面从边到心100%均匀粉红）。"
+      ],
+      "pro_tips": "厚度低于2.5cm的薄牛排不适用反向慢烤，3.5cm以上厚切牛排用此法效果惊艳。"
+    },
+    {
+      "id": "west_03",
+      "category": "western",
+      "subcategory": "法式经典",
+      "name": "传统法式低温油封鸭腿 (Confit de Canard)",
+      "region": "法国西南",
+      "difficulty": "高级",
+      "prep_time_min": 20,
+      "cook_time_min": 180,
+      "base_servings": 2,
+      "macros_per_serving": {
+        "kcal": 540,
+        "protein_g": 36,
+        "carbs_g": 4,
+        "fat_g": 41,
+        "fiber_g": 1
+      },
+      "science_principle": "粗盐高渗脱水改变肌纤维蛋白结构，随后在88℃纯鸭油中恒温慢煮3小时，使坚韧的结缔组织100%转化为丝滑明胶而不沸腾失水。",
+      "ingredients": [
+        {
+          "item": "带皮肥美鸭全腿",
+          "amount": 500,
+          "unit": "g",
+          "note": "2只"
+        },
+        {
+          "item": "纯正融化鸭油",
+          "amount": 600,
+          "unit": "ml",
+          "note": "可过滤重复使用"
+        },
+        {
+          "item": "粗海盐",
+          "amount": 15,
+          "unit": "g",
+          "note": "干腌脱水"
+        },
+        {
+          "item": "百里香、香叶、杜松子与大蒜",
+          "amount": 20,
+          "unit": "g",
+          "note": "香料腌渍"
+        }
+      ],
+      "steps": [
+        "鸭腿用粗海盐、百里香、拍碎大蒜与黑胡椒碎揉搓均匀，密封冷藏干腌24小时，取出洗净并彻底擦干。",
+        "深铸铁锅放入鸭腿，注入融化鸭油完全没过鸭肉，送入90℃低温烤箱慢封3-3.5小时至竹签轻扎即透。",
+        "上桌前取出鸭腿，平底锅不放油，鸭皮朝下中小火慢煎6分钟，将鸭皮炸至金黄薄脆如琉璃，内部鸭肉一抿脱骨。"
+      ],
+      "pro_tips": "油封温度绝不能超过95℃，一旦油中水分剧烈沸腾，鸭肉就会变干柴。"
+    },
+    {
+      "id": "west_04",
+      "category": "western",
+      "subcategory": "正统意餐",
+      "name": "罗马正统无奶油培根蛋黄意面 (Spaghetti alla Carbonara)",
+      "region": "意大利罗马",
+      "difficulty": "高级",
+      "prep_time_min": 10,
+      "cook_time_min": 12,
+      "base_servings": 1,
+      "macros_per_serving": {
+        "kcal": 590,
+        "protein_g": 26,
+        "carbs_g": 62,
+        "fat_g": 26,
+        "fiber_g": 3
+      },
+      "science_principle": "严禁使用淡奶油！利用面汤中的支链淀粉、猪脸颊肉融化脂滴与62℃生食蛋黄液、羊奶酪发生机械剪切乳化(Emulsion)，形成天鹅绒般浓稠金黄酱层。",
+      "ingredients": [
+        {
+          "item": "铜模粗表面意大利面(Spaghetti)",
+          "amount": 100,
+          "unit": "g",
+          "note": "铜模面表面粗糙易挂汁"
+        },
+        {
+          "item": "意式风干猪脸颊肉(Guanciale/厚切培根)",
+          "amount": 60,
+          "unit": "g",
+          "note": "切厚条"
+        },
+        {
+          "item": "生食级蛋黄",
+          "amount": 55,
+          "unit": "g",
+          "note": "3颗纯蛋黄"
+        },
+        {
+          "item": "佩科里诺罗马羊奶酪(Pecorino Romano)",
+          "amount": 35,
+          "unit": "g",
+          "note": "细擦成雪花状"
+        },
+        {
+          "item": "现磨黑胡椒粗粒",
+          "amount": 4,
+          "unit": "g",
+          "note": "干锅烘香"
+        }
+      ],
+      "steps": [
+        "小火干锅煸炒猪脸颊肉条6分钟，逼出清亮脂油，肉丁外脆内糯，捞出一半脆肉留作顶饰，锅具彻底离火降温。",
+        "3颗蛋黄加入细擦羊奶酪与烘香黑胡椒碎，用力搅打成浓稠顺滑的蛋黄芝士膏(Carbocream)，加一勺温面汤预调温。",
+        "意面入微盐沸水煮至Al dente（比包装时间少90秒），直接夹入已离火降温至65℃以下的猪油锅中翻拌。",
+        "倒入蛋黄芝士膏与30ml高浓度煮面淀粉水，双手飞速颠锅抛翻30秒，空气与淀粉水将蛋黄猪油乳化成丝滑浓酱紧裹面条，撒脆肉丁装盘。"
+      ],
+      "pro_tips": "倒蛋黄膏时锅底如果超过70℃，瞬间就会结块变成失败的西红柿炒鸡蛋！"
+    },
+    {
+      "id": "west_05",
+      "category": "western",
+      "subcategory": "正统意餐",
+      "name": "米兰藏红花牛骨髓意式炖饭 (Risotto alla Milanese)",
+      "region": "意大利米兰",
+      "difficulty": "高级",
+      "prep_time_min": 15,
+      "cook_time_min": 22,
+      "base_servings": 2,
+      "macros_per_serving": {
+        "kcal": 540,
+        "protein_g": 18,
+        "carbs_g": 64,
+        "fat_g": 22,
+        "fiber_g": 2
+      },
+      "science_principle": "Carnaroli意米表层高支链淀粉在持续机械碰撞中溶出，配合离火后冰黄油块的温差微晶乳化法(Mantecatura)，达成流动波浪状(All'onda)黄金标准。",
+      "ingredients": [
+        {
+          "item": "意大利Carnaroli/Arborio炖饭米",
+          "amount": 160,
+          "unit": "g",
+          "note": "绝对不可淘洗，保留表面淀粉"
+        },
+        {
+          "item": "伊朗特级藏红花丝",
+          "amount": 0.5,
+          "unit": "g",
+          "note": "用50ml热高汤提前浸泡30分钟出金黄色"
+        },
+        {
+          "item": "牛骨髓与白洋葱极细末",
+          "amount": 40,
+          "unit": "g",
+          "note": "底味核心"
+        },
+        {
+          "item": "干白葡萄酒",
+          "amount": 60,
+          "unit": "ml",
+          "note": "提酸解腻"
+        },
+        {
+          "item": "滚烫牛肉/鸡肉清高汤",
+          "amount": 700,
+          "unit": "ml",
+          "note": "必须保持沸腾状态分次加入"
+        },
+        {
+          "item": "冰冻无盐黄油丁与帕玛森干酪",
+          "amount": 60,
+          "unit": "g",
+          "note": "离火Mantecatura乳化用"
+        }
+      ],
+      "steps": [
+        "锅中融化牛骨髓与少许黄油，小火慢炒洋葱极细末10分钟至完全透明融化（切勿炒黄）。",
+        "倒入生米中火干炒2分钟（Tostatura），直至米粒边缘呈半透明、手触滚烫，倒入干白葡萄酒挥发酒精。",
+        "开始分次加入滚烫高汤：每次加一勺，持续搅拌摩擦米粒，待液体吸干再加下一勺，煮至第14分钟时倒入藏红花金汤。",
+        "第17分钟米芯保留微硬弹性时立刻关火离灶，投入冰冻黄油块与帕玛森芝士粉，疯狂颠锅摇晃乳化1分钟，倾入平盘轻拍盘底使饭自然流平。"
+      ],
+      "pro_tips": "生米一旦用水洗过，表面淀粉流失，永远做不出浓稠乳化的意式炖饭。"
+    },
+    {
+      "id": "cult_01",
+      "category": "cult",
+      "subcategory": "发酵酸臭系",
+      "name": "广西柳州老坛酸笋石螺原汤螺蛳粉",
+      "region": "广西柳州",
+      "difficulty": "高级",
+      "prep_time_min": 40,
+      "cook_time_min": 240,
+      "base_servings": 10,
+      "macros_per_serving": {
+        "kcal": 520,
+        "protein_g": 18,
+        "carbs_g": 68,
+        "fat_g": 19,
+        "fiber_g": 5
+      },
+      "cult_index": "⭐⭐⭐⭐⭐",
+      "science_principle": "老坛大头甜笋经植物乳杆菌厌氧发酵，酪氨酸裂解生成对甲酚(p-cresol)与二甲基二硫醚，闻之如生化武器，入口却与石螺谷氨酸发生鲜味核爆。",
+      "safety_redline": "石螺必须用清水加铁器吐沙48小时，且爆炒后慢熬5小时彻底杀灭管圆线虫等淡水寄生虫；汤底只喝汤不吃煮空的老螺肉。",
+      "ingredients": [
+        {
+          "item": "活石螺/田螺",
+          "amount": 1500,
+          "unit": "g",
+          "note": "吐净泥沙剪尾"
+        },
+        {
+          "item": "猪筒骨与鸡骨架",
+          "amount": 1500,
+          "unit": "g",
+          "note": "焯水吊高汤"
+        },
+        {
+          "item": "柳州老坛自然发酵酸笋丝",
+          "amount": 300,
+          "unit": "g",
+          "note": "无油干锅煸干水汽"
+        },
+        {
+          "item": "新鲜紫苏叶与砂仁八角山奈",
+          "amount": 60,
+          "unit": "g",
+          "note": "炒螺去泥腥灵魂"
+        },
+        {
+          "item": "柳州干榨陈米圆米粉",
+          "amount": 1000,
+          "unit": "g",
+          "note": "冷水泡软后煮透"
+        },
+        {
+          "item": "炸腐竹、酸豆角、木耳丝与花生米",
+          "amount": 400,
+          "unit": "g",
+          "note": "经典配菜"
+        }
+      ],
+      "steps": [
+        "【猛火炒螺】热锅下熟菜籽油与猪油，爆香拍姜、蒜头、干辣椒与香料，倒入石螺大火爆炒8分钟，烹高度米酒与紫苏叶去腥。",
+        "【慢熬原汤】将炒好的石螺与焯水猪筒骨投入深桶，加12升水大火烧开转小火慢熬4-5小时，调入生抽、蚝油、冰糖与盐。",
+        "【炼紫苏红油】菜籽油烧至190℃稍凉，分次泼入广西朝天椒面、八角粉与干紫苏碎中熬出红油。",
+        "【干煸酸笋】酸笋丝入无油干锅小火煸干水汽，再加少许红油与辣椒炒香。煮好米粉入碗，浇滚烫螺汤、红油，铺满炸腐竹与酸笋。"
+      ],
+      "pro_tips": "酸笋如果不先无油干锅煸干水汽，吃起来会有生水涩味且不够脆爽。"
+    },
+    {
+      "id": "cult_02",
+      "category": "cult",
+      "subcategory": "百草消化液系",
+      "name": "贵州黔东南苗侗百草牛瘪火锅",
+      "region": "贵州榕江/从江",
+      "difficulty": "殿堂级",
+      "prep_time_min": 45,
+      "cook_time_min": 30,
+      "base_servings": 4,
+      "macros_per_serving": {
+        "kcal": 410,
+        "protein_g": 42,
+        "carbs_g": 8,
+        "fat_g": 23,
+        "fiber_g": 2
+      },
+      "cult_index": "⭐⭐⭐⭐⭐+",
+      "science_principle": "反刍黄牛瘤胃与小肠未消化完的野生百草浆液，富含纤维素酶、消化蛋白酶与植物生物碱，初入口微苦草腥，数秒后激活苦味受体后的强力生津回甘。",
+      "safety_redline": "【绝对安全红线】严禁选用饲料牛或病牛；取出的牛瘪原液必须经三层细绢布过滤，并加入高度白酒与香料在100℃下剧烈翻滚煮沸20分钟以上彻底灭菌！",
+      "ingredients": [
+        {
+          "item": "高山食草黄牛精滤牛瘪原液",
+          "amount": 400,
+          "unit": "ml",
+          "note": "翠绿色草本原浆"
+        },
+        {
+          "item": "黄牛胸口肉、牛百叶、牛黄喉與牛肝",
+          "amount": 600,
+          "unit": "g",
+          "note": "切薄片"
+        },
+        {
+          "item": "新鲜刺芫荽(大叶野香菜)与香柳",
+          "amount": 40,
+          "unit": "g",
+          "note": "黔东南特有灵魂香草"
+        },
+        {
+          "item": "石菖蒲与鲜南姜泥",
+          "amount": 20,
+          "unit": "g",
+          "note": "辟秽化湿去异味"
+        },
+        {
+          "item": "新鲜牛胆汁",
+          "amount": 5,
+          "unit": "ml",
+          "note": "微调清凉苦回甘度"
+        },
+        {
+          "item": "糊辣椒与川花椒",
+          "amount": 25,
+          "unit": "g",
+          "note": "重香压腥"
+        }
+      ],
+      "steps": [
+        "将过滤三次的牛瘪原液倒入锅中，加石菖蒲、山奈、生姜与高度米酒，大火剧烈煮沸20分钟彻底杀菌并撇净浮沫。",
+        "另起铁锅烧热菜籽油，爆香花椒、干辣椒、蒜末与姜丝，下牛肉片与牛杂猛火爆炒至7成熟。",
+        "倒入熬透的百草牛瘪汤与高汤，调入少许牛胆汁与盐，撒满刺芫荽与香柳碎，小火边炖边涮。"
+      ],
+      "pro_tips": "吃牛瘪火锅先喝一小口汤，感受喉底由苦转甘的清凉感，再蘸糊辣椒蘸水吃牛肉。"
+    },
+    {
+      "id": "cult_03",
+      "category": "cult",
+      "subcategory": "百草消化液系",
+      "name": "云南德宏傣族手撕苦肠牛撒撇",
+      "region": "云南德宏/西双版纳",
+      "difficulty": "高级",
+      "prep_time_min": 40,
+      "cook_time_min": 15,
+      "base_servings": 3,
+      "macros_per_serving": {
+        "kcal": 380,
+        "protein_g": 35,
+        "carbs_g": 42,
+        "fat_g": 8,
+        "fiber_g": 3
+      },
+      "cult_index": "⭐⭐⭐⭐⭐",
+      "science_principle": "苦肠液中的胆汁酸与柠檬叶香茅草中的柠檬醛结合，形成极度开胃解暑的冷凉苦鲜复合味型。",
+      "safety_redline": "现代安全标准必须采用【熟撒】工艺：苦肠水必须彻底熬煮沸腾15分钟放凉，牛肉馅建议用炭火烤至八成熟或选用检疫合格热气黄牛肉。",
+      "ingredients": [
+        {
+          "item": "黄牛里脊肉泥(火烧肉泥)",
+          "amount": 250,
+          "unit": "g",
+          "note": "炭火燎香表面后剁成极致细泥"
+        },
+        {
+          "item": "熬熟放凉的牛苦肠原汁",
+          "amount": 180,
+          "unit": "ml",
+          "note": "过滤澄清"
+        },
+        {
+          "item": "德宏细米线与烤牛干巴片",
+          "amount": 300,
+          "unit": "g",
+          "note": "蘸食主体"
+        },
+        {
+          "item": "刺芫荽、香柳、薄荷、柠檬叶极细末",
+          "amount": 40,
+          "unit": "g",
+          "note": "缺一不可"
+        },
+        {
+          "item": "刷涮辣/小米辣碎与蒜泥",
+          "amount": 20,
+          "unit": "g",
+          "note": "极辣提神"
+        }
+      ],
+      "steps": [
+        "牛苦肠水加姜蒜与八角大火熬开15分钟，用细纱布滤出清亮墨绿苦水，彻底冰镇放凉。",
+        "黄牛里脊整块在炭火上烤至外焦里嫩，剁成细腻肉糜。",
+        "将肉糜与刺芫荽、香柳、柠檬叶细末、蒜泥、小米辣抓匀，分次兑入冰镇苦肠水搅打成浓稠碧绿蘸水，配细米线与烤牛肚丝蘸食。"
+      ],
+      "pro_tips": "若无法接受苦肠味，可用大量手挤野生青柠檬汁代替苦水，即为清爽酸冽的【柠檬撒】。"
+    },
+    {
+      "id": "cult_04",
+      "category": "cult",
+      "subcategory": "醛类草木腥系",
+      "name": "川滇黔野生折耳根(鱼腥草)拌狼牙土豆与腊肉",
+      "region": "云贵川渝",
+      "difficulty": "简单",
+      "prep_time_min": 12,
+      "cook_time_min": 5,
+      "base_servings": 2,
+      "macros_per_serving": {
+        "kcal": 290,
+        "protein_g": 8,
+        "carbs_g": 38,
+        "fat_g": 12,
+        "fiber_g": 4
+      },
+      "cult_index": "⭐⭐⭐⭐",
+      "science_principle": "折耳根挥发油中的癸酰乙醛(Decanoyl acetaldehyde)具有强烈鱼腥味，通过食盐高渗杀水可排出60%游离醛，再与醋酸和糊辣椒反应转化为独特草木清香。",
+      "safety_redline": "凉拌前必须用流动净水刷洗根节泥沙，并用淡盐水浸泡10分钟。",
+      "ingredients": [
+        {
+          "item": "新鲜野生白嫩折耳根",
+          "amount": 150,
+          "unit": "g",
+          "note": "掐去老须切3cm段"
+        },
+        {
+          "item": "黄心土豆(切波浪狼牙条)",
+          "amount": 200,
+          "unit": "g",
+          "note": "煎炸至外脆内软"
+        },
+        {
+          "item": "四川保宁醋",
+          "amount": 15,
+          "unit": "ml",
+          "note": "解腥增香"
+        },
+        {
+          "item": "柴火糊辣椒面与红油",
+          "amount": 20,
+          "unit": "g",
+          "note": "灵魂香辣"
+        },
+        {
+          "item": "蒜泥、葱花、香菜与白糖",
+          "amount": 20,
+          "unit": "g",
+          "note": "白糖3g提鲜中和冲味"
+        }
+      ],
+      "steps": [
+        "折耳根嫩段加3g食盐抓拌揉搓1分钟，静置8分钟，倒掉杀出的黄苦水。",
+        "狼牙土豆条入油锅炸至表面金黄起脆壳（约90秒），捞出沥油趁热倒入盆中。",
+        "投入处理好的折耳根，加入蒜泥、保宁醋、生抽、白糖、花椒面与大勺红油辣椒，颠盆翻拌均匀即刻享用。"
+      ],
+      "pro_tips": "折耳根切忌焯水！一受热脆感尽失变成软绵绵的草根，凉拌只用盐杀水。"
+    },
+    {
+      "id": "cult_05",
+      "category": "cult",
+      "subcategory": "极寒生腌系",
+      "name": "潮汕毒药：红膏生腌青蟹与皮皮虾",
+      "region": "广东潮汕",
+      "difficulty": "高级",
+      "prep_time_min": 30,
+      "cook_time_min": 240,
+      "base_servings": 3,
+      "macros_per_serving": {
+        "kcal": 260,
+        "protein_g": 34,
+        "carbs_g": 12,
+        "fat_g": 8,
+        "fiber_g": 1
+      },
+      "cult_index": "⭐⭐⭐⭐⭐",
+      "science_principle": "高浓度盐糖酱油与53度高度白酒产生强大渗透压，抽离蟹肉游离水，使肌原纤维蛋白与蟹膏脂蛋白脱水凝胶化，形成冰淇淋般的绵密流心质地。",
+      "safety_redline": "【生死红线】1. 严禁生腌任何淡水水产（淡水鱼虾蟹螺肺吸虫/肝吸虫极高）；2. 深海活蟹必须经 -20℃ 以下商业超低温急冻至少 24-48 小时灭杀异尖线虫后方可解冻生腌；3. 肠胃虚弱者忌食。",
+      "ingredients": [
+        {
+          "item": "超低温急冻灭菌深海红膏青蟹/梭子蟹",
+          "amount": 600,
+          "unit": "g",
+          "note": "膏满肉肥"
+        },
+        {
+          "item": "减盐特级生抽与潮汕鱼露",
+          "amount": 250,
+          "unit": "ml",
+          "note": "生抽210ml+鱼露40ml"
+        },
+        {
+          "item": "53度高度纯粮白酒与绍兴花雕",
+          "amount": 80,
+          "unit": "ml",
+          "note": "白酒40ml+花雕40ml抑菌去腥"
+        },
+        {
+          "item": "蒜末、红朝天椒圈、香菜连根碎",
+          "amount": 120,
+          "unit": "g",
+          "note": "重料压腥提鲜"
+        },
+        {
+          "item": "冰糖粉与冷纯净水",
+          "amount": 130,
+          "unit": "g",
+          "note": "冰糖30g+水100ml熬化放凉"
+        }
+      ],
+      "steps": [
+        "调制生腌母汁：将熬化放凉的冰糖水、生抽、鱼露、高度白酒、花雕酒混合，投入蒜末、朝天椒圈、香菜碎与柠檬片。",
+        "经-20℃冷冻达标的红膏蟹用纯净水刷洗干净，去腮、去心、去胃囊与脐盖，斩成6块，蟹钳拍裂。",
+        "将蟹块码入消毒密封玻璃盒，倒入冰镇生腌汁完全没过蟹身，放入0℃-2℃冰箱冷藏浸渍4-6小时即可上桌，配白粥绝杀。"
+      ],
+      "pro_tips": "腌制时间不可超过12小时，否则蟹肉过咸发硬失去果冻般的嫩滑感。"
+    },
+    {
+      "id": "cult_06",
+      "category": "cult",
+      "subcategory": "发酵酸臭系",
+      "name": "老北京传统绿豆酸浆豆汁儿配焦圈水疙瘩",
+      "region": "北京",
+      "difficulty": "高级",
+      "prep_time_min": 10,
+      "cook_time_min": 15,
+      "base_servings": 2,
+      "macros_per_serving": {
+        "kcal": 240,
+        "protein_g": 11,
+        "carbs_g": 36,
+        "fat_g": 6,
+        "fiber_g": 3
+      },
+      "cult_index": "⭐⭐⭐⭐⭐",
+      "science_principle": "绿豆淀粉水洗分离后的乳清蛋白液经乳酸菌自然发酵（pH降至3.8-4.2），必须控制在88℃-92℃微泡状态保温，利用残余淀粉稳定悬浮不分层。",
+      "safety_redline": "生豆汁必须煮至锅边起泡熟化（90℃维持10分钟）方可饮用，切勿饮用未煮熟的生浆。",
+      "ingredients": [
+        {
+          "item": "老北京传统发酵生豆汁",
+          "amount": 600,
+          "unit": "ml",
+          "note": "灰绿色浓浆"
+        },
+        {
+          "item": "现炸酥脆焦圈",
+          "amount": 60,
+          "unit": "g",
+          "note": "2个"
+        },
+        {
+          "item": "六必居八宝水疙瘩咸菜丝",
+          "amount": 40,
+          "unit": "g",
+          "note": "切极细发丝淋红辣油"
+        }
+      ],
+      "steps": [
+        "砂锅或铜锅倒入生豆汁，中小火慢熬，用木勺不停推底防糊。",
+        "观察锅边开始泛起一圈细密白沫微泡（约90℃，绝对不可大火煮沸翻滚，一沸即水渣分离报废），立刻转极微火保温。",
+        "盛入热碗，一口滚烫豆汁、一口酥脆焦圈、再夹一筷子辣油咸菜丝，酸香回甜。"
+      ],
+      "pro_tips": "喝豆汁切忌用勺子小口吹凉喝，越凉酸馊味越重，必须趁90℃微烫时大口吸溜！"
+    },
+    {
+      "id": "cult_07",
+      "category": "cult",
+      "subcategory": "胚胎猎奇系",
+      "name": "南京金陵温控原汁活珠子",
+      "region": "江苏南京",
+      "difficulty": "中等",
+      "prep_time_min": 5,
+      "cook_time_min": 18,
+      "base_servings": 2,
+      "macros_per_serving": {
+        "kcal": 195,
+        "protein_g": 18,
+        "carbs_g": 2,
+        "fat_g": 13,
+        "fiber_g": 0
+      },
+      "cult_index": "⭐⭐⭐⭐⭐",
+      "science_principle": "孵化第11-12天的鸡胚胎，卵白与卵黄蛋白在胚胎酶作用下大规模水解为游离谷氨酸与小分子活性肽，形成极鲜的羊水囊汤，骨骼尚未钙化且无硬羽。",
+      "safety_redline": "必须选购正规孵化场照蛋筛选的11-12日龄活胚蛋（死胚变黑发臭严禁食用）；必须彻底煮熟。",
+      "ingredients": [
+        {
+          "item": "12日龄鲜活鸡胚活珠子",
+          "amount": 4,
+          "unit": "枚",
+          "note": "轻摇有沉甸甸水荡感"
+        },
+        {
+          "item": "现焙五香花椒盐",
+          "amount": 6,
+          "unit": "g",
+          "note": "蘸食提鲜"
+        },
+        {
+          "item": "生姜片与食盐",
+          "amount": 10,
+          "unit": "g",
+          "note": "煮水防裂壳"
+        }
+      ],
+      "steps": [
+        "活珠子洗净，必须冷水下锅（热水下锅气室骤胀必爆裂），加5g盐与姜片。",
+        "中小火慢升温至水面微沸，立刻转最小火保持微泡慢煨15分钟至完全熟透。",
+        "食用仪式：将大头气室端轻轻磕破剥开1cm小口，先凑嘴吸尽里面滚烫鲜甜的胚胎黄金汤汁，再剥壳蘸椒盐吃滑嫩胚体与蛋白硬块。"
+      ],
+      "pro_tips": "切勿与北方18天以上长满羽毛骨头的“毛鸡蛋”混淆，12天活珠子内部柔嫩如豆腐脑。"
+    },
+    {
+      "id": "cult_08",
+      "category": "cult",
+      "subcategory": "发酵酸臭系",
+      "name": "长沙火宫殿古法黑老卤灌汤臭豆腐",
+      "region": "湖南长沙",
+      "difficulty": "高级",
+      "prep_time_min": 30,
+      "cook_time_min": 6,
+      "base_servings": 2,
+      "macros_per_serving": {
+        "kcal": 360,
+        "protein_g": 19,
+        "carbs_g": 16,
+        "fat_g": 25,
+        "fiber_g": 2
+      },
+      "cult_index": "⭐⭐⭐⭐",
+      "science_principle": "冬笋、香菇、浏阳豆豉自然发酵黑卤中的多酚氧化酶使豆腐表皮乌黑，蛋白酶降解表层大豆蛋白使其在190℃油锅中迅速膨胀起脆壳而内芯化为豆花状空腔。",
+      "safety_redline": "严禁使用化学硫酸亚铁（绿矾）与硫化钠快速造假黑卤，必须使用植物菌菇豆豉自然发酵卤水。",
+      "ingredients": [
+        {
+          "item": "长沙黑卤浸泡臭豆腐生坯",
+          "amount": 10,
+          "unit": "块",
+          "note": "沥干表面卤水"
+        },
+        {
+          "item": "纯正茶籽油/菜籽油",
+          "amount": 500,
+          "unit": "ml",
+          "note": "油炸介质"
+        },
+        {
+          "item": "湖南剁椒蒜蓉辣椒酱",
+          "amount": 40,
+          "unit": "g",
+          "note": "灌汤辣味核心"
+        },
+        {
+          "item": "高汤蒜泥水与折耳根香菜碎",
+          "amount": 60,
+          "unit": "ml",
+          "note": "戳洞灌入"
+        }
+      ],
+      "steps": [
+        "茶籽油烧至六成热（170℃），下入沥干的黑臭豆腐坯，中小火慢炸3分钟至豆腐内部膨胀中空。",
+        "转大火将油温拉升至195℃，复炸45秒至表皮焦脆起细泡捞出。",
+        "用筷子在每块豆腐正中央戳破一个洞，灌入一勺滚烫鸡高汤蒜泥水与剁椒红油，塞入酸萝卜丁与香菜，一口咬下爆汁。"
+      ],
+      "pro_tips": "先低温炸空心、再高温炸脆壳，才能做到外焦脆而里面像嫩豆花。"
+    },
+    {
+      "id": "cult_09",
+      "category": "cult",
+      "subcategory": "霉变发酵系",
+      "name": "浙江宁波绍兴“江南三臭”之臭苋菜梗蒸臭豆腐",
+      "region": "浙江宁波/绍兴",
+      "difficulty": "中等",
+      "prep_time_min": 10,
+      "cook_time_min": 12,
+      "base_servings": 3,
+      "macros_per_serving": {
+        "kcal": 220,
+        "protein_g": 14,
+        "carbs_g": 10,
+        "fat_g": 14,
+        "fiber_g": 3
+      },
+      "cult_index": "⭐⭐⭐⭐⭐",
+      "science_principle": "老苋菜梗内部的植物髓芯在芽孢杆菌与乳酸菌作用下果胶彻底水解液化，化为翠绿透明的天然咸鲜果冻状游离氨基酸浓浆。",
+      "safety_redline": "发酵卤水若出现红色或黑色杂菌霉斑应丢弃，正常发酵卤为浑浊乳白或淡青色。",
+      "ingredients": [
+        {
+          "item": "陈年老卤臭苋菜梗",
+          "amount": 250,
+          "unit": "g",
+          "note": "切4cm段"
+        },
+        {
+          "item": "绍兴原卤白臭豆腐",
+          "amount": 200,
+          "unit": "g",
+          "note": "垫盘底"
+        },
+        {
+          "item": "纯香菜籽油/熟猪油",
+          "amount": 25,
+          "unit": "ml",
+          "note": "封油锁香"
+        },
+        {
+          "item": "干红辣椒段与毛豆仁",
+          "amount": 30,
+          "unit": "g",
+          "note": "增鲜配色"
+        }
+      ],
+      "steps": [
+        "深盘底部铺一层绍兴白臭豆腐，上面整齐码放臭苋菜梗，撒上鲜毛豆仁与干红辣椒圈。",
+        "淋入两勺原坛臭卤汁与25ml熟菜籽油。",
+        "蒸锅水沸后大火猛蒸12分钟，端上桌臭味绕梁三日，夹起苋菜梗用嘴一吸，翠绿果冻般的嫩芯滑入口中，咸鲜无比。"
+      ],
+      "pro_tips": "吃臭苋菜梗只吸食里面的果冻髓芯，外面的硬木质化粗皮吐掉不吃。"
+    },
+    {
+      "id": "cult_10",
+      "category": "cult",
+      "subcategory": "虫胶原猎奇系",
+      "name": "福建闽南泉州野生海土笋冻",
+      "region": "福建泉州/厦门",
+      "difficulty": "高级",
+      "prep_time_min": 30,
+      "cook_time_min": 15,
+      "base_servings": 4,
+      "macros_per_serving": {
+        "kcal": 140,
+        "protein_g": 22,
+        "carbs_g": 4,
+        "fat_g": 3,
+        "fiber_g": 0
+      },
+      "cult_index": "⭐⭐⭐⭐",
+      "science_principle": "可口革囊星虫(海沙虫)体壁富含高达80%的胶原蛋白，沸水熬煮10分钟后三螺旋结构解旋溶入水中，在4℃低温下无需任何琼脂吉利丁即可自发交联成晶莹剔透的弹性水凝胶。",
+      "safety_redline": "必须用滚轴反复碾压挤尽星虫内脏泥沙并彻底煮沸熟透。",
+      "ingredients": [
+        {
+          "item": "鲜活海滩可口革囊星虫(土笋)",
+          "amount": 500,
+          "unit": "g",
+          "note": "压出内脏泥沙洗至水清"
+        },
+        {
+          "item": "纯净水",
+          "amount": 750,
+          "unit": "ml",
+          "note": "虫水比严格控制在1:1.5"
+        },
+        {
+          "item": "食盐",
+          "amount": 6,
+          "unit": "g",
+          "note": "底味"
+        },
+        {
+          "item": "灵魂蘸料(蒜泥醋+厦门甜辣酱+黄芥末+腌白萝卜丝)",
+          "amount": 60,
+          "unit": "g",
+          "note": "解腥提鲜"
+        }
+      ],
+      "steps": [
+        "鲜活土笋放石板上用重木槌滚压挤出肚内泥沙，放入竹筐在流水中反复踩洗至完全洁白无沙。",
+        "锅加750ml水与土笋、食盐，大火烧开转中火翻滚熬煮8-10分钟，虫体缩小变脆，汤汁变得浓白粘稠。",
+        "连虫带汤分装入小瓷碗中，放入2℃-4℃冰箱冷藏4小时自然凝结成琥珀水晶冻，脱模配黄芥末蒜醋享用。"
+      ],
+      "pro_tips": "熬煮时间绝不能超过12分钟，否则星虫变软失去爽脆嚼劲；水量过多则无法凝固成冻。"
+    },
+    {
+      "id": "cult_11",
+      "category": "cult",
+      "subcategory": "苗疆酸汤系",
+      "name": "贵州凯里苗家野生木姜子红酸汤鱼",
+      "region": "贵州凯里",
+      "difficulty": "中等",
+      "prep_time_min": 20,
+      "cook_time_min": 15,
+      "base_servings": 3,
+      "macros_per_serving": {
+        "kcal": 350,
+        "protein_g": 38,
+        "carbs_g": 12,
+        "fat_g": 16,
+        "fiber_g": 3
+      },
+      "cult_index": "⭐⭐⭐⭐",
+      "science_principle": "毛辣果（野生小番茄）发酵乳酸与野生木姜子油中的柠檬醛(Citral)、香叶醛碰撞，产生类似风油精与柠檬薄荷的冲击性奇香。",
+      "safety_redline": "淡水江团鱼/稻花鱼必须彻底煮熟后食用。",
+      "ingredients": [
+        {
+          "item": "鲜活江团鱼/黄辣丁",
+          "amount": 700,
+          "unit": "g",
+          "note": "斩大段不切片"
+        },
+        {
+          "item": "凯里老坛发酵红酸汤",
+          "amount": 200,
+          "unit": "g",
+          "note": "毛辣果与红椒发酵"
+        },
+        {
+          "item": "野生木姜子油/鲜木姜子果",
+          "amount": 5,
+          "unit": "ml",
+          "note": "灵魂奇香"
+        },
+        {
+          "item": "脆皮豆腐与黄豆芽",
+          "amount": 200,
+          "unit": "g",
+          "note": "吸汁配菜"
+        },
+        {
+          "item": "糊辣椒折耳根腐乳蘸水",
+          "amount": 60,
+          "unit": "g",
+          "note": "蘸鱼灵魂"
+        }
+      ],
+      "steps": [
+        "锅下猪油爆香姜蒜与鲜番茄块，倒入200g凯里老坛红酸汤小火炒出红亮酸油。",
+        "注入600ml高汤烧沸，下黄豆芽、脆皮豆腐与大块江团鱼，加少许盐与米酒中火慢煮10分钟。",
+        "出锅前滴入5ml野生木姜子油（或拍破鲜木姜子），瞬间异香扑鼻，鱼肉蘸糊辣椒折耳根腐乳碗食用。"
+      ],
+      "pro_tips": "木姜子油易挥发，必须在关火前最后一刻滴入。"
+    },
+    {
+      "id": "cult_12",
+      "category": "cult",
+      "subcategory": "内脏爆浆系",
+      "name": "新疆喀什红柳炭烤油包大羊腰与爆浆羊眼",
+      "region": "新疆喀什/和田",
+      "difficulty": "高级",
+      "prep_time_min": 20,
+      "cook_time_min": 8,
+      "base_servings": 2,
+      "macros_per_serving": {
+        "kcal": 480,
+        "protein_g": 28,
+        "carbs_g": 3,
+        "fat_g": 39,
+        "fiber_g": 1
+      },
+      "cult_index": "⭐⭐⭐⭐",
+      "science_principle": "外部羊网油在350℃炭火下迅速融化滴落起火熏香，形成高温油脂保护膜，使内部羊腰蛋白质在无氧油润中熟化，嫩如鹅肝。",
+      "safety_redline": "必须使用检疫合格的当日鲜宰阿勒泰/和田绵羊内脏，中心温度需烤至72℃以上熟透。",
+      "ingredients": [
+        {
+          "item": "带厚网油的新鲜绵羊大腰子",
+          "amount": 2,
+          "unit": "只",
+          "note": "对半剖开剔除白色输尿管"
+        },
+        {
+          "item": "新鲜绵羊眼睛",
+          "amount": 4,
+          "unit": "颗",
+          "note": "保留眼周少许脂肪"
+        },
+        {
+          "item": "新疆托克逊原粒孜然与安集海辣椒面",
+          "amount": 15,
+          "unit": "g",
+          "note": "粗颗粒"
+        },
+        {
+          "item": "洋葱丝(皮芽子)",
+          "amount": 50,
+          "unit": "g",
+          "note": "去腥解腻"
+        }
+      ],
+      "steps": [
+        "羊腰顺长轴剖开，用尖刀彻底剔除中心白色树枝状输尿管筋膜，外层裹紧羊网油穿在宽铁钎上；羊眼穿串后用针在角膜扎1个极细微孔防烤炸。",
+        "置于果木无烟旺炭火上，先猛火烤至外层羊网油滋滋冒泡、金黄焦脆。",
+        "撒粗盐、原粒孜然与辣椒面，翻烤至羊腰内部刚好断生嫩滑（切勿烤老脱水），配生洋葱丝大口趁热吃。"
+      ],
+      "pro_tips": "羊眼上火前必须用细针轻刺泄压孔，否则内部玻璃体受热沸腾会在口腔中高温爆裂烫伤。"
+    },
+    {
+      "id": "cult_13",
+      "category": "cult",
+      "subcategory": "菌菇致幻系",
+      "name": "云南昆明干巴菌与见手青(红葱牛肝菌)重油爆炒",
+      "region": "云南昆明/楚雄",
+      "difficulty": "殿堂级",
+      "prep_time_min": 25,
+      "cook_time_min": 15,
+      "base_servings": 2,
+      "macros_per_serving": {
+        "kcal": 380,
+        "protein_g": 12,
+        "carbs_g": 16,
+        "fat_g": 30,
+        "fiber_g": 5
+      },
+      "cult_index": "⭐⭐⭐⭐⭐+",
+      "science_principle": "见手青切开瞬间氧化变靛蓝色（褐绒盖牛肝菌素氧化为醌类），其神经致幻毒素（小人国幻觉）为热不稳定蛋白，必须在重油高温（>180℃）下持续爆炒焖透12分钟以上彻底灭活！",
+      "safety_redline": "【保命三熟铁律】1. 严禁混杂剧毒鹅膏菌；2. 必须遵循【重油、重蒜、切片均匀、猛火持续炒透12-15分钟以上】；3. 炒锅铲与案板严禁生熟混用，未熟透时严禁尝味！",
+      "ingredients": [
+        {
+          "item": "新鲜云南见手青(红网牛肝菌)",
+          "amount": 350,
+          "unit": "g",
+          "note": "刮洗泥土，切均匀3mm厚片（切勿太厚防夹生）"
+        },
+        {
+          "item": "农家熟猪油",
+          "amount": 50,
+          "unit": "g",
+          "note": "必须重油导热灭毒"
+        },
+        {
+          "item": "紫皮大蒜片",
+          "amount": 40,
+          "unit": "g",
+          "note": "至少一整头大蒜"
+        },
+        {
+          "item": "干红皱皮辣椒段与青辣椒片",
+          "amount": 30,
+          "unit": "g",
+          "note": "提香"
+        }
+      ],
+      "steps": [
+        "见手青用小刀刮净菌脚泥沙，切成厚薄完全一致的3mm薄片（切口瞬间变深蓝紫色属正常氧化）。",
+        "铁锅烧热下整整50g熟猪油，投入大量蒜片与干辣椒爆香。",
+        "倒入见手青片，大火翻炒后转中火，让猪油完全包裹菌片持续高温煎炒焖熟至少12-15分钟，期间可加少许高汤防干锅并把汤汁彻底收干。",
+        "待菌片完全软熟、汤汁干透只剩清亮油汁、蒜片微黄时加盐出锅，鲜美堪比顶级和牛。"
+      ],
+      "pro_tips": "切片必须厚薄均匀！若有一片切得过厚中心未达100℃熟透，就可能看见满屋小精灵跳舞。"
+    },
+    {
+      "id": "cult_14",
+      "category": "cult",
+      "subcategory": "内脏脑髓系",
+      "name": "川渝乐山古法冒烤鸭配老卤迷宗脑花",
+      "region": "四川成都/乐山",
+      "difficulty": "高级",
+      "prep_time_min": 25,
+      "cook_time_min": 20,
+      "base_servings": 1,
+      "macros_per_serving": {
+        "kcal": 390,
+        "protein_g": 16,
+        "carbs_g": 6,
+        "fat_g": 34,
+        "fiber_g": 1
+      },
+      "cult_index": "⭐⭐⭐⭐",
+      "science_principle": "猪脑富含高达80%的磷脂与胆固醇脂质体，在90℃红油老卤中微沸慢煨15分钟，蛋白质与脂质形成慕斯鹅肝般的极致绵密丝滑感。",
+      "safety_redline": "必须用牙签彻底挑净猪脑表面的红色脑膜血管网（腥味与血水唯一来源），并彻底煨熟。",
+      "ingredients": [
+        {
+          "item": "新鲜猪脑花",
+          "amount": 1,
+          "unit": "副(约120g)",
+          "note": "用牙签卷挑剥离全表面红血丝"
+        },
+        {
+          "item": "川式牛油红卤底汤",
+          "amount": 250,
+          "unit": "ml",
+          "note": "微沸慢冒"
+        },
+        {
+          "item": "宜宾芽菜碎与酥黄豆",
+          "amount": 25,
+          "unit": "g",
+          "note": "脆咸对比"
+        },
+        {
+          "item": "泡萝卜丁、折耳根碎、大头菜与香葱",
+          "amount": 30,
+          "unit": "g",
+          "note": "解腻提鲜"
+        },
+        {
+          "item": "秘制熟油海椒与花椒面",
+          "amount": 25,
+          "unit": "ml",
+          "note": "麻辣灵魂"
+        }
+      ],
+      "steps": [
+        "猪脑放入冷水中，用一根牙签贴住血丝轻轻旋转，将整张脑衣血管网完整撕下。",
+        "垫在漏勺中，浸入加有老姜、料酒与牛油红卤的汤锅中，保持90℃微沸慢冒15分钟至熟透定型。",
+        "滑入碗中，浇一勺原卤红汤、一勺熟油海椒，撒上酥黄豆、宜宾芽菜、大头菜丁、蒜泥与葱花。"
+      ],
+      "pro_tips": "挑血丝时把猪脑泡在冰水里血管收缩更坚韧，一根牙签30秒就能完整扯下整张血膜。"
+    },
+    {
+      "id": "cult_15",
+      "category": "cult",
+      "subcategory": "昆虫高蛋白系",
+      "name": "云南傣味香茅草炸竹虫与干煸柞蚕蛹",
+      "region": "云南/东北",
+      "difficulty": "中等",
+      "prep_time_min": 15,
+      "cook_time_min": 6,
+      "base_servings": 2,
+      "macros_per_serving": {
+        "kcal": 310,
+        "protein_g": 34,
+        "carbs_g": 5,
+        "fat_g": 17,
+        "fiber_g": 2
+      },
+      "cult_index": "⭐⭐⭐⭐⭐",
+      "science_principle": "竹虫与蚕蛹干物质中优质蛋白质高达55%-60%，富含几丁质外壳在180℃油炸下迅速脱水酥化，内部富含不饱和脂肪酸的虫浆形成奶油爆浆感。",
+      "safety_redline": "高敏体质（虾蟹甲壳类过敏者）慎食异体昆虫蛋白；必须彻底炸熟。",
+      "ingredients": [
+        {
+          "item": "鲜活云南竹虫/东北鲜活柞蚕蛹",
+          "amount": 200,
+          "unit": "g",
+          "note": "焯水定型"
+        },
+        {
+          "item": "新鲜香茅草与柠檬叶丝",
+          "amount": 30,
+          "unit": "g",
+          "note": "炸酥同食"
+        },
+        {
+          "item": "椒盐与单山蘸水辣椒面",
+          "amount": 8,
+          "unit": "g",
+          "note": "干香提味"
+        }
+      ],
+      "steps": [
+        "蚕蛹沸水焯煮5分钟后对半剪开去掉中间黑芯，拍薄淀粉；竹虫沸水烫10秒捞出彻底晾干水汽。",
+        "油温五成热（150℃）下入虫体与香茅草丝，中小火慢炸3分钟逼出水分，转大火复炸30秒至金黄酥脆。",
+        "捞出控油，趁热撒入椒盐与单山蘸水辣椒面颠匀，入口酥脆如薯片、满口奶香。"
+      ],
+      "pro_tips": "竹虫入油锅前必须彻底控干水分，且油温不可过高，否则内部虫浆瞬间沸腾爆裂。"
+    },
+    {
+      "id": "cult_16",
+      "category": "cult",
+      "subcategory": "生食鱼鲜系",
+      "name": "广东西江顺德风生水起鱼生 (合规海鲡鱼版)",
+      "region": "广东顺德",
+      "difficulty": "殿堂级",
+      "prep_time_min": 40,
+      "cook_time_min": 0,
+      "base_servings": 4,
+      "macros_per_serving": {
+        "kcal": 280,
+        "protein_g": 32,
+        "carbs_g": 14,
+        "fat_g": 11,
+        "fiber_g": 2
+      },
+      "cult_index": "⭐⭐⭐⭐",
+      "science_principle": "活鱼放血吊水排出乳酸与泥土腥味(土臭素Geosmin)，薄切0.5mm蝉翼片在柠檬草、炸芋丝、蒜片等12种配料的芳香烃包裹下呈现极致爽脆清甜。",
+      "safety_redline": "【现代合规食品安全铁律】传统淡水鲩鱼（草鱼）极易携带华支睾吸虫（肝吸虫），再多高度酒和芥末也无法在短时间内杀死囊蚴！现代商业出品必须改用深海养殖金鲷鱼、蓝鳍金枪鱼或经超低温急冻达标的深海海鲡鱼/三文鱼制作顺德捞起鱼生！",
+      "ingredients": [
+        {
+          "item": "刺身级深海金鲷鱼柳/超低温海鲡鱼",
+          "amount": 350,
+          "unit": "g",
+          "note": "吸水纸包裹冷藏排酸，切0.5mm飞薄片"
+        },
+        {
+          "item": "顺德鱼生十二宝配料(炸芋头丝/姜丝/葱丝/柠檬叶丝/洋葱丝/泡椒/蒜片/白芝麻/炸花生/藠头/陈皮丝/红萝卜丝)",
+          "amount": 200,
+          "unit": "g",
+          "note": "刀工极致细密"
+        },
+        {
+          "item": "冷榨纯正花生油与特级生抽",
+          "amount": 40,
+          "unit": "ml",
+          "note": "锁水滑润"
+        }
+      ],
+      "steps": [
+        "深海刺身级鱼柳去皮去血合肉，逆纹片成薄如蝉翼的晶莹鱼片，平铺于冰盘之上锁紧脆度。",
+        "将十二宝配料按五彩颜色环绕摆盘。",
+        "食用时先淋入一勺纯正花生油与少许盐将鱼片拌匀锁水，再推入全部配料高高捞起（捞得越高越风生水起），鲜脆爽口。"
+      ],
+      "pro_tips": "拌鱼生只淋花生油和盐，不直接倒酱油把鱼片泡黑。"
+    }
+  ]
+}

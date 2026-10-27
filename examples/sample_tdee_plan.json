@@ -1,0 +1,103 @@
+{
+  "client_profile": {
+    "gender": "女",
+    "age": 28,
+    "height_cm": 165.0,
+    "weight_kg": 62.0,
+    "activity": "light"
+  },
+  "metabolic_metrics": {
+    "bmr_kcal": 1350,
+    "tdee_kcal": 1857,
+    "daily_average_target_kcal": 1457,
+    "daily_deficit_kcal": 400
+  },
+  "carb_cycling_targets": {
+    "high_carb_day": {
+      "label": "高碳充能日 (重训/下肢日)",
+      "carbs_g": 198,
+      "protein_g": 112,
+      "fat_g": 28,
+      "target_kcal": 1491
+    },
+    "moderate_carb_day": {
+      "label": "中碳平衡日 (上肢/有氧日)",
+      "carbs_g": 124,
+      "protein_g": 124,
+      "fat_g": 40,
+      "target_kcal": 1355
+    },
+    "low_carb_day": {
+      "label": "低碳燃脂日 (核心/快走日)",
+      "carbs_g": 56,
+      "protein_g": 136,
+      "fat_g": 53,
+      "target_kcal": 1243
+    }
+  },
+  "weekly_rotation_template": [
+    {
+      "day": "周一 (中碳日)",
+      "type": "moderate_carb_day",
+      "recommended_meals": [
+        "柠檬黑椒爆汁香煎鸡胸肉便当",
+        "滑蛋嫩牛肉彩椒全麦卷饼",
+        "番茄无水慢炖厚切高蛋白牛腩"
+      ]
+    },
+    {
+      "day": "周二 (低碳日)",
+      "type": "low_carb_day",
+      "recommended_meals": [
+        "免油炸孜然香烤高蛋白龙利鱼柳",
+        "泰式青柠鲜虾芒果魔芋丝沙拉",
+        "北欧香草纸包低温慢烤三文鱼"
+      ]
+    },
+    {
+      "day": "周三 (高碳日)",
+      "type": "high_carb_day",
+      "recommended_meals": [
+        "柠檬黑椒爆汁香煎鸡胸肉便当",
+        "滑蛋嫩牛肉彩椒全麦卷饼",
+        "番茄无水慢炖厚切高蛋白牛腩"
+      ]
+    },
+    {
+      "day": "周四 (低碳日)",
+      "type": "low_carb_day",
+      "recommended_meals": [
+        "北非蛋低卡番茄烤双蛋 (Shakshuka)",
+        "五香高蛋白冷吃卤牛腱子",
+        "生酮花椰菜米黄金虾仁伪炒饭"
+      ]
+    },
+    {
+      "day": "周五 (中碳日)",
+      "type": "moderate_carb_day",
+      "recommended_meals": [
+        "奇亚籽高蛋白蓝莓隔夜燕麦碗",
+        "减脂版低卡手撕椒麻鸡丝拌黄瓜",
+        "五香高蛋白冷吃卤牛腱子"
+      ]
+    },
+    {
+      "day": "周六 (高碳日)",
+      "type": "high_carb_day",
+      "recommended_meals": [
+        "奇亚籽高蛋白蓝莓隔夜燕麦碗",
+        "杂粮糙米海苔鲜虾波奇饭 (Poke Bowl)",
+        "五香高蛋白冷吃卤牛腱子"
+      ]
+    },
+    {
+      "day": "周日 (低碳日)",
+      "type": "low_carb_day",
+      "recommended_meals": [
+        "免油炸孜然香烤高蛋白龙利鱼柳",
+        "泰式青柠鲜虾芒果魔芋丝沙拉",
+        "北欧香草纸包低温慢烤三文鱼"
+      ]
+    }
+  ]
+}

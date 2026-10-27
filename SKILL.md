@@ -1,52 +1,77 @@
 ---
 name: gourmet-master
-description: "全能顶级美食研发与私厨顾问全书。覆盖：①科学减脂餐与轻食备餐（28天碳水循环/精准热量缺口/分子级锁水嫩肉/20款0卡低脂酱汁）；②中华八大菜系传世大菜（刀工浆糊芡/镬气火候/国宴红白茸扫汤/20大复合味型）；③正统西餐与米其林技法（干式熟成/反向慢煎/法餐五大母酱及15款衍生汁/惠灵顿牛排/正统意面烩饭）；④全国十二大硬核区域邪教美食（柳州螺蛳粉/百草牛瘪/傣族撒撇/折耳根/潮汕生腌/老北京豆汁/活珠子/臭豆腐/臭苋菜梗/土笋冻/酸汤鱼/烤羊腰）；⑤商业变现全案（WorkBuddy私人营养顾问/高端上门私厨/轻食外卖75%毛利/自媒体爆款脚本）。"
+description: "全能顶级美食研发与私厨顾问全书。内置可执行CLI计算引擎(scripts/gourmet_engine.py)、结构化美食数据库(data/culinary_db.json)与交互式HTML/PDF客户交付物生成器。全面覆盖：①科学减脂餐与28天碳水循环/TDEE精算；②中华八大菜系传世大菜与20大复合味型；③正统西餐牛排温控与法餐五大母酱衍生；④全国16+硬核区域邪教美食(螺蛳粉/百草牛瘪/牛撒撇/折耳根/潮汕生腌/豆汁/活珠子/见手青/顺德鱼生/脑花/土笋冻)；⑤WorkBuddy商业变现全案。"
 ---
 
-# 美食大师：从科学减脂、中西珍馐到暗黑邪教料理全书 (Gourmet Master)
+# 美食大师：可执行算法引擎 + 结构化配方库 + 交互式客户交付系统 (Gourmet Master v2.0)
 
-本 Skill 定位为**全球米其林星厨经验 + 中华特级烹调师 + 国家注册营养师 + 探奇美食主理人**。无论是追求精准热量缺口的健身减脂党、钻研中华传统八大菜系镬气与西餐温度控制的饕餮厨艺爱好者，还是痴迷于柳州螺蛳粉、潮汕生腌、贵州百草牛瘪等“区域邪教猎奇料理”的食客与美食博主，本指南都能提供**毫克级物料配比、分子级烹饪原理与可落地的商业变现方案**。
+本 Skill 是集**可执行 CLI 精算脚本 (`scripts/`) + 结构化 JSON 数据库 (`data/`) + 离线交互式 HTML/PDF 交付物渲染器 (`examples/`) + 25,000字深度厨艺百科 (`references/`)**于一体的工业级智能体技能。
 
----
-
-## 核心指导原则
-
-1. **科学与物理分子烹饪逻辑（Science-Backed Cooking）**：
-   - 告别“油热倒油、盐少许”。精确标定油温成数（℃）、肉类熟度中心温度（Core Temp）、美拉德反应（Maillard reaction）临界点与蛋白质嫩化水合（Brining）原理。
-2. **营养与能量精准量化（Nutritional Precision）**：
-   - 减脂餐必须给出：三大营养素（碳水/蛋白质/脂肪）克重比、总千卡（kcal）与饱腹指数，兼顾“低卡控糖”与“香浓多汁不吃草”。
-3. **风味平衡与极致镬气（Flavor Harmony & Wok Hei）**：
-   - 中餐讲究油温、气化、料酒挥发与瞬时爆炒；西餐讲究母酱乳化、油脂澄清与醒肉（Resting）回汁。
-4. **文化包容与风味探奇（Cult & Regional Respect）**：
-   - 正视各地“奇葩/暗黑/邪教”特色美食背后的微生物发酵学、挥发性有机酸风味与历史地理渊源，不仅提供正宗非遗秘方，更严把**食品卫生与寄生虫防范底线**。
+当前 `SKILL.md` 所在目录记为 `<skill-root>`。
 
 ---
 
-## 用户交互与响应工作流
+## 一、 核心可执行工具链 (Executable CLI Engine)
 
-```mermaid
-flowchart TD
-    A[用户提出烹饪/配方/美食探索需求] --> B{识别需求板块}
-    B -- 减脂餐/轻食健身 --> C[计算热量卡路里 + 碳水循环 + 3%水合嫩肉SOP + 备餐周计划]
-    B -- 中式传统/八大菜系 --> D[标定火候油温 + 复合味型碗汁 + 镬气下锅动线 + 吊汤清汤]
-    B -- 正统西餐/米其林技法 --> E[部位选型 + 探针中心温度 + 五大母酱衍生 + 醒肉回汁]
-    B -- 区域邪教/猎奇风味 --> F[生化机理解析 + 去异去毒安全规范 + 非遗秘方 + 体验指南]
-    C & D & E & F --> G[输出: 精准克重配方 + 步骤分解 + 商业变现建议]
+当用户需要查询菜谱、按用餐人数动态缩放克重、计算个人减脂 TDEE 与 28 天碳水循环方案、或生成可交付给付费客户的交互式 HTML/PDF 报告时，**优先调用内置 CLI 引擎**：
+
+### 1. 检索结构化配方库 (`search`)
+支持按分类（`fitness` 减脂餐 / `chinese` 八大菜系 / `western` 正统西餐 / `cult` 区域邪教美食）、食材关键词或最高卡路里检索：
+```bash
+python <skill-root>/scripts/gourmet_engine.py search --category all --keyword "牛"
+python <skill-root>/scripts/gourmet_engine.py search --category fitness --max-kcal 380
+python <skill-root>/scripts/gourmet_engine.py search --category cult
+```
+
+### 2. 单品配方提取与任意人数动态克重缩放 (`recipe`)
+支持从 1 人减脂独食自动等比放大至 20 人高端私厨家宴（自动换算所有主辅料克重与总宏量营养素）：
+```bash
+python <skill-root>/scripts/gourmet_engine.py recipe --id cult_02 --servings 6
+python <skill-root>/scripts/gourmet_engine.py recipe --id "惠灵顿牛排" --servings 4 --output wellington_4p.json
+```
+
+### 3. 个人精准减脂 TDEE & 28天碳水循环方案生成器 (`tdee-plan`)
+输入客户性别、年龄、身高、体重与运动系数，利用 Mifflin-St Jeor 方程自动核算 BMR、TDEE、高碳/中碳/低碳日精确克重指标，并匹配一周循环食谱：
+```bash
+python <skill-root>/scripts/gourmet_engine.py tdee-plan --gender 女 --age 28 --height-cm 165 --weight-kg 62 --activity light --deficit 400 --output client_plan.json
+```
+
+### 4. 一键渲染商业级交互式 HTML/PDF 客户交付系统 (`render-html`)
+生成可离线在浏览器打开、内置实时 TDEE 计算器、1~20 人份量拖动滑块、分类筛选与**一键打印导出客户 PDF** 的完整交互式前端页面：
+```bash
+python <skill-root>/scripts/gourmet_engine.py render-html --title "VIP客户专属减脂与私厨料理全书" --output ./gourmet_deliverable.html
+```
+- 预渲染演示成品：[`examples/gourmet_interactive_portal.html`](./examples/gourmet_interactive_portal.html)
+
+---
+
+## 二、 技能目录架构
+
+```text
+<skill-root>/
+├── SKILL.md                              # 核心指令与 CLI 调度规范
+├── scripts/
+│   └── gourmet_engine.py                 # 多子命令 CLI 引擎 (search / recipe / tdee-plan / render-html)
+├── data/
+│   ├── culinary_db.json                  # 43+ 道结构化大师级完整配方库 (含宏量营养/科学原理/安全红线)
+│   └── generate_db.py                    # 数据库构建与扩展脚本
+├── examples/
+│   ├── gourmet_interactive_portal.html   # 可直接浏览器打开的交互式食谱与TDEE精算Web系统
+│   └── sample_tdee_plan.json             # 客户28天碳水循环交付JSON样例
+└── references/                           # 5 大深层领域百科全书
+    ├── 01_fitness_diet.md                # 28天碳水循环、3%盐糖水合嫩肉、20款0卡酱汁、15款减脂食谱
+    ├── 02_chinese_cuisine.md             # 八大菜系代表作、刀工浆糊芡、国宴红白茸扫汤、20大复合味型
+    ├── 03_western_cuisine.md             # 干式熟成、反向慢煎Reverse Sear、法餐五大母酱及15款衍生汁
+    ├── 04_cult_regional_food.md          # 全国16+硬核区域邪教美食生化机理、非遗原方与寄生虫安全红线
+    └── 05_monetization_and_content.md    # WorkBuddy收费咨询模板、上门私厨SOP、75%毛利轻食外卖与爆款脚本
 ```
 
 ---
 
-## 知识库全景索引 (References)
+## 三、 核心指导原则与安全铁律
 
-按需查阅各专题深层手册：
-
-- 🥗 **科学减脂餐与轻食备餐全百科 (28天碳水循环·高蛋白防掉肌·好吃不吃草)**：[01_fitness_diet.md](./references/01_fitness_diet.md)
-  - *包含：TDEE 精准计算、碳水循环全套四类日设计、3% 盐糖水合嫩肉法、小苏打弱碱变性法、20 款 0 糖低卡神仙酱汁矩阵、15 款高蛋白明星减脂食谱详析。*
-- 🥢 **中华料理大厨烹调全书 (八大菜系传世大菜·镬气火候·高汤扫汤·复合味型库)**：[02_chinese_cuisine.md](./references/02_chinese_cuisine.md)
-  - *包含：刀工与花刀体系、蛋清浆与脆皮糊、三至八成油温换算、镬气物理本质、国宴老母鸡高汤与红白茸扫汤神技、八大菜系当家压轴大菜 SOP、20 大经典中餐复合味型调料兑汁库。*
-- 🥩 **正统西餐与米其林级烹饪全书 (牛排科学·五大母酱衍生·殿堂硬菜·法意经典)**：[03_western_cuisine.md](./references/03_western_cuisine.md)
-  - *包含：多道式西餐菜单体系、干式熟成 28~45 天生化机制、牛排反向慢煎 (Reverse Sear) 与中心温度表、法餐五大母酱及 15 款衍生子酱汁、惠灵顿牛排、油封鸭腿、正统牛肝菌烩饭、舒芙蕾与正统提拉米苏。*
-- 🦪 **全国区域“邪教美食”全书 (十二大暗黑硬核料理·生化机理·非遗秘方·安全红线)**：[04_cult_regional_food.md](./references/04_cult_regional_food.md)
-  - *包含：邪教美食上瘾生化学、柳州老坛酸笋石螺原汤螺蛳粉、贵州百草牛瘪火锅、云南手撕牛撒撇、川滇黔野生折耳根拌万物、潮汕生腌红膏蟹毒药（-20℃深度灭菌法）、老北京微滚起泡不沸腾酸浆豆汁、南京原汁活珠子、长沙火宫殿黑老卤臭豆腐、宁波绍兴江南三臭、闽南土笋冻、凯里红酸汤鱼、南疆炭烤爆浆羊腰。*
-- 💰 **美食内容创业、AI 私厨顾问与商业变现全攻略工具箱**：[05_monetization_and_content.md](./references/05_monetization_and_content.md)
-  - *包含：WorkBuddy 线上私人营养减脂顾问极速交付全案、8~10 人高端上门私厨菜单设计与现场服务 SOP、减脂轻食碗单份 BOM 成本拆解与 75% 毛利定价模型、小红书/抖音 10W+ 爆款视频分镜脚本。*
+1. **量化与分子烹饪优先**：所有配方输出必须包含精准克重（g/ml）、油温成数（℃）、中心探针温度（Core Temp）及背后的分子料理原理（如美拉德反应、水合渗透 Brining、淀粉糊化与蛋白质乳化）。
+2. **邪教美食安全底线（生命红线）**：
+   - **潮汕生腌 / 顺德鱼生**：严禁使用淡水水产（防肝吸虫/肺吸虫）！必须声明选用深海鱼蟹并经 **-20℃ 超低温急冻 24~48 小时**灭活寄生虫囊蚴。
+   - **云南见手青**：必须强调切均匀 3mm 薄片、重猪油、重蒜，并在 **180℃+ 高温下持续炒焖 12~15 分钟以上**彻底破坏热不稳定神经致幻毒素。
+   - **贵州百草牛瘪 / 德宏牛撒撇**：必须强调三层细绢布精滤并在 **100℃ 剧烈翻滚煮沸 15~20 分钟以上**彻底灭菌。
