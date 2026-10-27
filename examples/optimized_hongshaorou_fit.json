@@ -1,0 +1,80 @@
+{
+  "optimization_mode": "fat-loss",
+  "original_macros": {
+    "kcal": 520,
+    "protein_g": 20,
+    "carbs_g": 22,
+    "fat_g": 38,
+    "fiber_g": 0
+  },
+  "optimized_macros": {
+    "kcal": 302,
+    "protein_g": 31.5,
+    "carbs_g": 12.1,
+    "fat_g": 13.3,
+    "fiber_g": 3
+  },
+  "kcal_saved_per_serving": 218,
+  "optimizations_applied": [
+    "蛋白升级：高脂五花肉 -> 3%盐糖水合嫩化瘦肉（蛋白质提升45%，饱和脂肪直降80%）",
+    "控糖替换：黄冰糖 45g -> 零卡代糖（彻底消除游离精制糖与胰岛素尖峰）"
+  ],
+  "optimized_recipe": {
+    "id": "chn_07_fit",
+    "category": "fitness",
+    "subcategory": "浙菜 (Zhejiang)",
+    "name": "【科学减脂改造版】古法无水花雕本帮红烧肉",
+    "region": "江浙沪",
+    "difficulty": "中等",
+    "prep_time_min": 15,
+    "cook_time_min": 65,
+    "base_servings": 4,
+    "macros_per_serving": {
+      "kcal": 302,
+      "protein_g": 31.5,
+      "carbs_g": 12.1,
+      "fat_g": 13.3,
+      "fiber_g": 3
+    },
+    "science_principle": "【减脂分子改造】保留原菜核心复合风味分子（香辛料与发酵鲜味），采用3%盐糖水合嫩化与高汤蒸汽导热替代重油爆炒。单份热量从 520 kcal 骤降至 302 kcal！",
+    "ingredients": [
+      {
+        "item": "去皮鸡腿肉/精修牛腱肉(3%盐糖水合嫩化)",
+        "amount": 600,
+        "unit": "g",
+        "note": "切3cm见方大块"
+      },
+      {
+        "item": "五年陈绍兴花雕酒",
+        "amount": 350,
+        "unit": "ml",
+        "note": "全程不加一滴水"
+      },
+      {
+        "item": "零卡赤藓糖醇/罗汉果代糖",
+        "amount": 45,
+        "unit": "g",
+        "note": "炒糖色与收汁亮色"
+      },
+      {
+        "item": "特级生抽与老抽",
+        "amount": 35,
+        "unit": "ml",
+        "note": "复合酱香"
+      },
+      {
+        "item": "小葱结与生姜片",
+        "amount": 30,
+        "unit": "g",
+        "note": "垫底防粘"
+      }
+    ],
+    "steps": [
+      "五花肉冷水焯水洗净，入干锅小火慢煸至四面微黄、逼出多余猪油倒出。",
+      "锅留底油下25g冰糖小火炒至琥珀色冒细泡，下肉块翻炒均匀挂上糖色。",
+      "转入砂锅（底垫葱结姜片），倒入整整350ml花雕酒、生抽、老抽与剩余20g冰糖。",
+      "大火烧开后盖盖微火慢煨55分钟，揭盖转大火不断舀汁浇淋收浓，汤汁自然乳化包裹肉块，红亮如玛瑙、入口即化。"
+    ],
+    "pro_tips": "收汁阶段严禁加水淀粉，依靠猪皮溶出的明胶与冰糖自然浓缩而成的自来芡才够浓油赤酱。"
+  }
+}

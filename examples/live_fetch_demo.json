@@ -1,0 +1,26 @@
+{
+  "query": "江西莲花血鸭",
+  "status": "LIVE_NETWORK_FETCH_SUCCESS",
+  "sources": {
+    "wikipedia_zh": [
+      {
+        "title": "江西省",
+        "snippet": "增加了香葱、生姜等，用小砂锅加盖放在炭炉上慢火炖制。上桌后满座飘香，砂锅内鸡块色泽发红，鸡肉鲜美，汤汁香醇，且为原味 余干辣椒炒肉 豫章酥鸭 永新狗肉 莲花血鸭 安福火腿 向塘土鸡 瓦罐煨汤 粉蒸肉 井冈山烟笋烧肉 赣南小炒鱼 新余水北豆腐 水煮油炸 石头街的麻花 凉拌藕片 糖果：早点，一般与跟油条一起卖"
+      },
+      {
+        "title": "南京市",
+        "snippet": "芹。南京小吃的品种也比较丰富，包括旺鸡蛋、活珠子、鸭血粉丝汤、牛肉粉丝汤、鸭油酥烧饼、开洋干丝、鸡汁回卤干、小笼包、馄饨、锅贴、糯米藕、五香鹌鹑蛋、梅花糕、桂花糖芋苗、豆腐涝、桂花赤豆元宵、凉粉、五香豆等等。回味鸭血粉丝、鸭得堡、鸡鸣汤包都是吃鸭血粉丝汤的好去处。南京小吃主要的集中地有夫子庙、狮子"
+      },
+      {
+        "title": "缠足",
+        "snippet": "、寶應亦皆多天足。安徽則合肥、廬江、巢縣、無為、蕪湖、天長多天足，以耕樵漁牧為業。江西之蓮花廳、贛縣、雩都、信豐、興國、會昌、安遠、長寧、龍南、定南、虔南、南康、上猶、崇義、寧都亦多天足，皆力田。福建各縣多天足。江西、福建且有肩挑貿易以食男子者，而男子則事攜抱主炊汲焉。浙江則浙西時有所見，仁和、錢"
+      }
+    ],
+    "live_web_search": {
+      "search_query": "江西莲花血鸭 正宗配方 食材克重 做法 SOP",
+      "top_results": [],
+      "detected_gram_patterns": []
+    }
+  },
+  "next_step_hint": "Pass extracted ingredients & steps into `assemble` and `optimize --save-to-db` to standardize into commercial grams, compute macros, and save to database."
+}

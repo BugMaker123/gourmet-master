@@ -1,0 +1,241 @@
+{
+  "pipeline_status": "CLOSED_LOOP_SUCCESS (Live-Fetch -> Assemble -> Optimize -> Persist)",
+  "step1_live_web_intelligence": {
+    "live_web_search": {
+      "engine": "Toutiao Live Web Search (so.toutiao.com)",
+      "search_query": "广西横县鱼生 配方 配料 做法 步骤",
+      "extracted_snippets": [
+        "1. 基础原味捞鱼生(入门首选，本地人标准吃法)料汁基底:小碗放小榨花生油 + 鱼生酱油 + 少许白胡椒粉搅匀(油要多一点，是灵魂)配料:少量姜丝、紫苏...",
+        "制作过程包括选料、吊水、制作、切片。盈尺之鱼，出水欲飞。去鳞、脱皮、起骨，游刃有余，一气呵成。鱼生配料，五光十色，美轮美奂。姜、葱、蒜、木瓜丝、萝卜丝、柠檬..."
+      ],
+      "detected_gram_patterns": [
+        "重量从150克",
+        "至1500克"
+      ],
+      "detected_ingredients_in_snippets": [
+        "鱼",
+        "花生油",
+        "花生",
+        "姜丝",
+        "紫苏",
+        "柠檬",
+        "木瓜丝",
+        "萝卜丝",
+        "酱油",
+        "白胡椒粉"
+      ]
+    },
+    "wikipedia_zh": [
+      {
+        "title": "广西壮族自治区",
+        "snippet": "环江香猪，出产于河池环江毛南族自治县明伦镇（古称宜北，也叫宜北香猪），曾荣获全国食品奖 横县茉莉花（2006年7月12日获准）：出产于南宁市横县。 横县大头菜（2009年7月9日获准）：出产于南宁市横县。 南山白毛茶（2009年7月9日获准）：出产于南宁市横县南山。 钟山贡柑：出产于贺州市钟山县。 富川脐橙：出产于贺州市富川瑶族自治县。"
+      },
+      {
+        "title": "横州市",
+        "snippet": "横州市（壯語：Hwngzcouh Si）舊稱橫縣（Hwngz Yen），是位於中华人民共和国广西壮族自治区东南部的縣級市，由南寧市管轄，郁江横贯，具有2100多年历史。市人民政府駐橫州鎮江濱西路9號。 今横州古属百越地的一部分。汉元鼎六年（前111年）后，今横州境分属广郁、合浦、安广、平山等县"
+      },
+      {
+        "title": "中国共产党广西壮族自治区委员会",
+        "snippet": "中共广西壮族自治区党委直属机关工作委员会 （自治区党委高等学校工作委员会与自治区教育厅合署办公，不计入机构限额。） 中共广西壮族自治区党委党校 《广西日报》社 广西社会主义学院 中共广西壮族自治区党委党史研究室 广西壮族自治区档案馆 …… （自治区党委党校挂广西行政学院牌子。广西社会主义学院挂广西中华文化学院牌子。）"
+      }
+    ]
+  },
+  "step2_standardized_assembled_recipe": {
+    "id": "custom_47",
+    "category": "cult",
+    "subcategory": "联网实时采集组装",
+    "name": "广西横县鱼生",
+    "region": "广西横县",
+    "difficulty": "中高级",
+    "prep_time_min": 15,
+    "cook_time_min": 12,
+    "base_servings": 2,
+    "macros_per_serving": {
+      "kcal": 563,
+      "protein_g": 46.5,
+      "carbs_g": 51.5,
+      "fat_g": 16.8,
+      "fiber_g": 3.5
+    },
+    "estimated_bom_cost_cny": 13.85,
+    "science_principle": "1. 基础原味捞鱼生(入门首选，本地人标准吃法)料汁基底:小碗放小榨花生油 + 鱼生酱油 + 少许白胡椒粉搅匀(油要多一点，是灵魂)配料:少量姜丝、紫苏...",
+    "ingredients": [
+      {
+        "item": "鱼",
+        "amount": 350.0,
+        "unit": "g",
+        "note": "精准量化"
+      },
+      {
+        "item": "花生油",
+        "amount": 15.0,
+        "unit": "ml",
+        "note": "由『一勺』自动标准化转换"
+      },
+      {
+        "item": "花生",
+        "amount": 5.0,
+        "unit": "g",
+        "note": "由『适量』自动标准化转换"
+      },
+      {
+        "item": "姜丝",
+        "amount": 5.0,
+        "unit": "g",
+        "note": "由『适量』自动标准化转换"
+      },
+      {
+        "item": "紫苏",
+        "amount": 5.0,
+        "unit": "g",
+        "note": "由『适量』自动标准化转换"
+      },
+      {
+        "item": "柠檬",
+        "amount": 5.0,
+        "unit": "g",
+        "note": "由『适量』自动标准化转换"
+      },
+      {
+        "item": "木瓜丝",
+        "amount": 5.0,
+        "unit": "g",
+        "note": "由『适量』自动标准化转换"
+      },
+      {
+        "item": "萝卜丝",
+        "amount": 5.0,
+        "unit": "g",
+        "note": "由『适量』自动标准化转换"
+      },
+      {
+        "item": "重量从",
+        "amount": 150.0,
+        "unit": "g",
+        "note": "精准量化"
+      },
+      {
+        "item": "至",
+        "amount": 1500.0,
+        "unit": "g",
+        "note": "精准量化"
+      }
+    ],
+    "steps": [
+      "【全网实采工序1】1. 基础原味捞鱼生(入门首选，本地人标准吃法)料汁基底:小碗放小榨花生油 + 鱼生酱油 + 少许白胡椒粉搅匀(油要多一点，是灵魂)配料:少量姜丝、紫苏...",
+      "【全网实采工序2】制作过程包括选料、吊水、制作、切片。盈尺之鱼，出水欲飞。去鳞、脱皮、起骨，游刃有余，一气呵成。鱼生配料，五光十色，美轮美奂。姜、葱、蒜、木瓜丝、萝卜丝、柠檬..."
+    ],
+    "pro_tips": "所有肉类下锅前用厨房纸吸干表面水分，避免锅温骤降变成水煮。",
+    "persisted_to_db": "D:\\presonal-learning\\learn-2026\\gourmet-master\\data\\culinary_db.json"
+  },
+  "step3_optimization_report": {
+    "optimization_mode": "safety-audit",
+    "original_macros": {
+      "kcal": 563,
+      "protein_g": 46.5,
+      "carbs_g": 51.5,
+      "fat_g": 16.8,
+      "fiber_g": 3.5
+    },
+    "optimized_macros": {
+      "kcal": 563,
+      "protein_g": 46.5,
+      "carbs_g": 51.5,
+      "fat_g": 16.8,
+      "fiber_g": 3.5
+    },
+    "kcal_saved_per_serving": 0,
+    "optimizations_applied": [
+      "水产寄生虫防线：淡水鱼虾螺严禁生食（防肝吸虫/肺吸虫）；海水生腌必须经 -20℃ 以下超低温急冻 24-48 小时灭活异尖线虫。"
+    ],
+    "optimized_recipe": {
+      "id": "custom_47",
+      "category": "cult",
+      "subcategory": "联网实时采集组装",
+      "name": "广西横县鱼生",
+      "region": "广西横县",
+      "difficulty": "中高级",
+      "prep_time_min": 15,
+      "cook_time_min": 12,
+      "base_servings": 2,
+      "macros_per_serving": {
+        "kcal": 563,
+        "protein_g": 46.5,
+        "carbs_g": 51.5,
+        "fat_g": 16.8,
+        "fiber_g": 3.5
+      },
+      "estimated_bom_cost_cny": 13.85,
+      "science_principle": "1. 基础原味捞鱼生(入门首选，本地人标准吃法)料汁基底:小碗放小榨花生油 + 鱼生酱油 + 少许白胡椒粉搅匀(油要多一点，是灵魂)配料:少量姜丝、紫苏...",
+      "ingredients": [
+        {
+          "item": "鱼",
+          "amount": 350.0,
+          "unit": "g",
+          "note": "精准量化"
+        },
+        {
+          "item": "花生油",
+          "amount": 15.0,
+          "unit": "ml",
+          "note": "由『一勺』自动标准化转换"
+        },
+        {
+          "item": "花生",
+          "amount": 5.0,
+          "unit": "g",
+          "note": "由『适量』自动标准化转换"
+        },
+        {
+          "item": "姜丝",
+          "amount": 5.0,
+          "unit": "g",
+          "note": "由『适量』自动标准化转换"
+        },
+        {
+          "item": "紫苏",
+          "amount": 5.0,
+          "unit": "g",
+          "note": "由『适量』自动标准化转换"
+        },
+        {
+          "item": "柠檬",
+          "amount": 5.0,
+          "unit": "g",
+          "note": "由『适量』自动标准化转换"
+        },
+        {
+          "item": "木瓜丝",
+          "amount": 5.0,
+          "unit": "g",
+          "note": "由『适量』自动标准化转换"
+        },
+        {
+          "item": "萝卜丝",
+          "amount": 5.0,
+          "unit": "g",
+          "note": "由『适量』自动标准化转换"
+        },
+        {
+          "item": "重量从",
+          "amount": 150.0,
+          "unit": "g",
+          "note": "精准量化"
+        },
+        {
+          "item": "至",
+          "amount": 1500.0,
+          "unit": "g",
+          "note": "精准量化"
+        }
+      ],
+      "steps": [
+        "【全网实采工序1】1. 基础原味捞鱼生(入门首选，本地人标准吃法)料汁基底:小碗放小榨花生油 + 鱼生酱油 + 少许白胡椒粉搅匀(油要多一点，是灵魂)配料:少量姜丝、紫苏...",
+        "【全网实采工序2】制作过程包括选料、吊水、制作、切片。盈尺之鱼，出水欲飞。去鳞、脱皮、起骨，游刃有余，一气呵成。鱼生配料，五光十色，美轮美奂。姜、葱、蒜、木瓜丝、萝卜丝、柠檬..."
+      ],
+      "pro_tips": "所有肉类下锅前用厨房纸吸干表面水分，避免锅温骤降变成水煮。",
+      "persisted_to_db": "D:\\presonal-learning\\learn-2026\\gourmet-master\\data\\culinary_db.json",
+      "safety_redline": "水产寄生虫防线：淡水鱼虾螺严禁生食（防肝吸虫/肺吸虫）；海水生腌必须经 -20℃ 以下超低温急冻 24-48 小时灭活异尖线虫。"
+    }
+  }
+}

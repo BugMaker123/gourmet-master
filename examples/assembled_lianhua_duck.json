@@ -1,0 +1,79 @@
+{
+  "id": "custom_44",
+  "category": "cult",
+  "subcategory": "鲜血爆炒系",
+  "name": "江西萍乡非遗莲花血鸭",
+  "region": "江西萍乡",
+  "difficulty": "中高级",
+  "prep_time_min": 15,
+  "cook_time_min": 12,
+  "base_servings": 3,
+  "macros_per_serving": {
+    "kcal": 630,
+    "protein_g": 43.1,
+    "carbs_g": 6.1,
+    "fat_g": 47.7,
+    "fiber_g": 3.5
+  },
+  "estimated_bom_cost_cny": 5.33,
+  "science_principle": "利用酒与盐的抗凝血作用保持鸭血液态，在85℃-90℃收汁瞬间淋入实现血红蛋白微薄糊化包浆，腥味全无而鲜度翻倍。",
+  "ingredients": [
+    {
+      "item": "麻鸭",
+      "amount": 500.0,
+      "unit": "g",
+      "note": "由『半只』自动标准化转换"
+    },
+    {
+      "item": "鲜鸭血",
+      "amount": 250.0,
+      "unit": "ml",
+      "note": "由『一碗』自动标准化转换"
+    },
+    {
+      "item": "茶籽油",
+      "amount": 45.0,
+      "unit": "ml",
+      "note": "由『三勺』自动标准化转换"
+    },
+    {
+      "item": "萍乡红辣椒",
+      "amount": 100.0,
+      "unit": "g",
+      "note": "精准量化"
+    },
+    {
+      "item": "大蒜",
+      "amount": 50.0,
+      "unit": "g",
+      "note": "精准量化"
+    },
+    {
+      "item": "生抽",
+      "amount": 30.0,
+      "unit": "ml",
+      "note": "由『两勺』自动标准化转换"
+    },
+    {
+      "item": "高度白酒",
+      "amount": 15.0,
+      "unit": "ml",
+      "note": "由『一勺』自动标准化转换"
+    },
+    {
+      "item": "盐",
+      "amount": 2.0,
+      "unit": "g",
+      "note": "由『少许』自动标准化转换"
+    }
+  ],
+  "steps": [
+    "1. 鲜活土麻鸭宰杀，碗底预放米酒与食盐接取鲜红活鸭血并顺时针不停搅动防止凝块",
+    "2. 麻鸭连骨剁成0.8cm小碎丁，热锅下茶籽油大火爆炒15分钟逼干水汽",
+    "3. 投入大量拍蒜、生姜末与萍乡鲜红辣椒碎猛火翻炒，加焖煮高汤焖至鸭肉酥烂收汁",
+    "4. 关小火，将未凝固的鲜鸭血伴随高度米酒均匀淋在滚烫鸭肉丁上，快速颠炒15秒使鸭血糊化包裹每一粒鸭肉，糊香麻辣鲜美出锅。"
+  ],
+  "pro_tips": "所有肉类下锅前用厨房纸吸干表面水分，避免锅温骤降变成水煮。",
+  "safety_redline": "鸭血必须接触滚烫锅体达到85℃以上完全熟化变褐红色方可食用，严禁生食未熟禽血！",
+  "persisted_to_db": "D:\\presonal-learning\\learn-2026\\gourmet-master\\data\\culinary_db.json"
+}
