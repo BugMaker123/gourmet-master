@@ -1,0 +1,27 @@
+{
+  "name": "gourmet-master",
+  "version": "3.0.0",
+  "display_name": "全能顶级美食研发与私厨顾问大师",
+  "display_name_en": "Gourmet Master Pro: Culinary R&D & Nutrition Engine",
+  "description": "全能顶级美食研发与私厨顾问全书 v3.0（动态联网采集 + 智能组装 + 多目标优化 + 自进化引擎）。内置可执行CLI引擎、结构化美食数据库与交互式HTML/PDF交付物生成器，全面覆盖科学减脂餐、中华八大菜系、正统西餐与全国硬核区域邪教美食。",
+  "description_zh": "全能顶级美食研发与私厨顾问全书 v3.0（动态联网采集 + 智能组装 + 多目标优化 + 自进化引擎）。内置可执行CLI引擎(scripts/gourmet_engine.py)、结构化美食数据库(data/culinary_db.json)与交互式HTML/PDF交付物生成器。支持实时联网搜索未知菜谱、自动将模糊单位标准化为精准克重与热量BOM成本、一键执行【科学减脂改造/米其林升维/食安红线审计】，全面覆盖：①科学减脂餐与TDEE碳水循环；②中华八大菜系；③正统西餐与低温慢煮；④全国16+硬核区域邪教美食。",
+  "description_en": "Commercial-grade Culinary R&D, Nutrition Calculation, and Private Chef Expert Plugin (v3.0). Features a dynamic closed-loop CLI engine (live web recipe fetching, fuzzy-unit to gram/ml standardization, BOM cost & macro calculation, fat-loss/Michelin/food-safety optimization, and interactive HTML/PDF portal generation) covering Fitness Meals, Eight Great Chinese Cuisines, Classic Western Culinary Arts, and Chinese Regional Cult Delicacies.",
+  "author": {
+    "name": "BugMaker123",
+    "email": "bugmaker123@users.noreply.github.com",
+    "url": "https://github.com/BugMaker123"
+  },
+  "repository": "https://github.com/BugMaker123/gourmet-master",
+  "homepage": "https://github.com/BugMaker123/gourmet-master",
+  "license": "MIT",
+  "keywords": [
+    "gourmet",
+    "culinary",
+    "recipes",
+    "fitness-meal",
+    "tdee",
+    "chinese-cuisine",
+    "western-cuisine",
+    "food-cost-bom"
+  ]
+}
