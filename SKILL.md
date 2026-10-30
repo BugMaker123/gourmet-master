@@ -1,6 +1,11 @@
 ---
 name: gourmet-master
-description: 全能顶级美食研发与私厨顾问全书 v3.0（动态联网采集 + 智能组装 + 多目标优化 + 自进化引擎）。内置可执行CLI引擎(scripts/gourmet_engine.py)、结构化美食数据库(data/culinary_db.json)与交互式HTML/PDF交付物生成器。支持实时联网搜索全球/全网未知菜谱、自动将模糊单位("少许/适量")标准化为商用精准克重与热量BOM成本、一键执行【科学减脂改造/米其林黑珍珠升维/食安红线审计】并自动写回数据库沉淀。全面覆盖：①科学减脂餐与28天碳水循环/TDEE精算；②中华八大菜系传世大菜与20大复合味型；③正统西餐牛排温控与法餐五大母酱衍生；④全国16+硬核区域邪教美食(螺蛳粉/百草牛瘪/牛撒撇/折耳根/潮汕生腌/豆汁/活珠子/见手青/顺德鱼生/脑花/土笋冻)；⑤WorkBuddy商业变现全案。
+version: "3.0.0"
+display_name: "全能顶级美食研发与私厨顾问大师"
+display_name_en: "Gourmet Master Pro: Culinary R&D & Nutrition Engine"
+description: "全能顶级美食研发与私厨顾问全书 v3.0（动态联网采集 + 智能组装 + 多目标优化 + 自进化引擎）。内置可执行CLI引擎、结构化美食数据库与交互式HTML/PDF交付物生成器，全面覆盖科学减脂餐、中华八大菜系、正统西餐与全国硬核区域邪教美食。"
+description_zh: "全能顶级美食研发与私厨顾问全书 v3.0（动态联网采集 + 智能组装 + 多目标优化 + 自进化引擎）。内置可执行CLI引擎(scripts/gourmet_engine.py)、结构化美食数据库(data/culinary_db.json)与交互式HTML/PDF交付物生成器。支持实时联网搜索未知菜谱、自动将模糊单位标准化为精准克重与热量BOM成本、一键执行【科学减脂改造/米其林升维/食安红线审计】，全面覆盖：①科学减脂餐与TDEE碳水循环；②中华八大菜系；③正统西餐与低温慢煮；④全国16+硬核区域邪教美食。"
+description_en: "Commercial-grade Culinary R&D, Nutrition Calculation, and Private Chef Agent Skill (v3.0). Features a dynamic closed-loop CLI engine (live web recipe fetching, fuzzy-unit to gram/ml standardization, BOM cost & macro calculation, fat-loss/Michelin/food-safety optimization, and interactive HTML/PDF portal generation) covering Fitness Meals, Eight Great Chinese Cuisines, Classic Western Culinary Arts, and Chinese Regional Cult Delicacies."
 ---
 
 # 全能顶级美食研发与私厨顾问大师 (Gourmet Master Pro v3.0 — 动态联网 · 智能组装 · 多目标优化闭环)
