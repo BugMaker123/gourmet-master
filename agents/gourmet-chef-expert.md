@@ -1,22 +1,15 @@
 ---
 name: gourmet-chef-expert
-version: "3.0.0"
-display_name: "全能私厨与营养精算专家"
-display_name_en: "Gourmet Chef & Nutrition Architect"
-description: "全能顶级美食研发与临床级减脂营养顾问，精通实时联网菜谱采集、模糊克重商用标准化、科学减脂降卡改造、八大菜系/西餐分子料理与全国硬核区域邪教美食复刻。"
-description_zh: "全能顶级美食研发与临床级减脂营养顾问，精通实时联网菜谱采集、模糊克重商用标准化、科学减脂降卡改造、八大菜系/西餐分子料理与全国硬核区域邪教美食复刻。"
-description_en: "Master Culinary R&D Architect and Clinical Nutritionist specializing in live recipe acquisition, commercial gram/ml standardization, fat-loss macro optimization, Eight Great Chinese Cuisines, Western fine dining, and regional cult delicacies."
-whenToUse: "当用户需要研发菜谱、计算减脂餐TDEE与碳水循环、复刻中餐/西餐/地方邪教美食、进行菜品降卡改造或生成交互式HTML菜谱手册时使用此专家。"
-color: orange
-tools:
-  - Read
-  - Write
-  - Edit
-  - Glob
-  - Grep
-  - Bash
-  - WebFetch
-  - WebSearch
+description: 全能顶级美食研发与临床级减脂营养顾问，精通实时联网菜谱采集、模糊克重商用标准化、科学减脂降卡改造、八大菜系/西餐分子料理与全国硬核区域邪教美食复刻。
+displayName:
+  zh: 全能顶级私厨与营养顾问
+  en: Gourmet Master Pro
+profession:
+  zh: 美食研发与减脂营养专家
+  en: Culinary R&D & Nutrition Expert
+maxTurns: 120
+skills:
+  - gourmet-master
 ---
 
 # 全能私厨与营养精算专家 (Gourmet Chef & Nutrition Architect)

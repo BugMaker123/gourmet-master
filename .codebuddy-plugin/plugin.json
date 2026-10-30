@@ -1,27 +1,74 @@
 {
   "name": "gourmet-master",
   "version": "3.0.0",
-  "display_name": "全能顶级美食研发与私厨顾问大师",
-  "display_name_en": "Gourmet Master Pro: Culinary R&D & Nutrition Engine",
   "description": "全能顶级美食研发与私厨顾问全书 v3.0（动态联网采集 + 智能组装 + 多目标优化 + 自进化引擎）。内置可执行CLI引擎、结构化美食数据库与交互式HTML/PDF交付物生成器，全面覆盖科学减脂餐、中华八大菜系、正统西餐与全国硬核区域邪教美食。",
-  "description_zh": "全能顶级美食研发与私厨顾问全书 v3.0（动态联网采集 + 智能组装 + 多目标优化 + 自进化引擎）。内置可执行CLI引擎(scripts/gourmet_engine.py)、结构化美食数据库(data/culinary_db.json)与交互式HTML/PDF交付物生成器。支持实时联网搜索未知菜谱、自动将模糊单位标准化为精准克重与热量BOM成本、一键执行【科学减脂改造/米其林升维/食安红线审计】，全面覆盖：①科学减脂餐与TDEE碳水循环；②中华八大菜系；③正统西餐与低温慢煮；④全国16+硬核区域邪教美食。",
-  "description_en": "Commercial-grade Culinary R&D, Nutrition Calculation, and Private Chef Expert Plugin (v3.0). Features a dynamic closed-loop CLI engine (live web recipe fetching, fuzzy-unit to gram/ml standardization, BOM cost & macro calculation, fat-loss/Michelin/food-safety optimization, and interactive HTML/PDF portal generation) covering Fitness Meals, Eight Great Chinese Cuisines, Classic Western Culinary Arts, and Chinese Regional Cult Delicacies.",
+  "description_zh": "全能顶级美食研发与私厨顾问全书 v3.0（动态联网采集 + 智能组装 + 多目标优化 + 自进化引擎）。内置可执行CLI引擎(scripts/gourmet_engine.py)、结构化美食数据库(data/culinary_db.json)与交互式HTML/PDF交付物生成器。",
+  "description_en": "Commercial-grade Culinary R&D, Nutrition Calculation, and Private Chef Expert Plugin (v3.0). Features a dynamic closed-loop CLI engine covering Fitness Meals, Eight Great Chinese Cuisines, Classic Western Culinary Arts, and Chinese Regional Cult Delicacies.",
   "author": {
     "name": "BugMaker123",
-    "email": "bugmaker123@users.noreply.github.com",
-    "url": "https://github.com/BugMaker123"
+    "email": "bugmaker123@users.noreply.github.com"
   },
-  "repository": "https://github.com/BugMaker123/gourmet-master",
-  "homepage": "https://github.com/BugMaker123/gourmet-master",
-  "license": "MIT",
-  "keywords": [
-    "gourmet",
-    "culinary",
-    "recipes",
-    "fitness-meal",
-    "tdee",
-    "chinese-cuisine",
-    "western-cuisine",
-    "food-cost-bom"
+  "agents": [
+    "./agents/gourmet-chef-expert.md"
+  ],
+  "skills": [
+    "./skills/gourmet-master"
+  ],
+  "expertType": "agent",
+  "agentName": "gourmet-chef-expert",
+  "displayName": {
+    "en": "Gourmet Master Pro",
+    "zh": "全能顶级私厨与营养顾问"
+  },
+  "profession": {
+    "en": "Culinary R&D & Nutrition Expert",
+    "zh": "美食研发与减脂营养专家"
+  },
+  "displayDescription": {
+    "en": "Dynamic live-fetching culinary R&D and clinical nutrition consultant. Converts vague household recipes into exact commercial grams/ml, calculates TDEE & BOM cost, optimizes for fat-loss or Michelin standards, and generates interactive HTML/PDF recipe portals.",
+    "zh": "支持全网实时检索菜谱、模糊单位自动清洗为商用精准克重(g/ml)、TDEE碳水循环与BOM成本精算、一键科学减脂降卡改造与米其林工艺升维，覆盖科学减脂餐、八大菜系、正统西餐与16+全国硬核区域邪教美食，直出可打印HTML交互式菜谱手册。"
+  },
+  "avatar": "avatars/gourmet-master.png",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "zh": "我想吃正宗川味水煮牛肉，请帮我实时检索并生成【原教旨刀口辣椒版】与【科学减脂降卡版】双方案（精确到克重、油温与BOM成本）。",
+    "en": "I want to make authentic Sichuan Boiled Beef (Shuizhu Niurou). Please generate both the authentic traditional version and a low-calorie fat-loss version with exact gram measurements, temperatures, and BOM cost."
+  },
+  "plugin": "gourmet-master",
+  "tags": [
+    {
+      "en": "Fitness & Fat-Loss Meals",
+      "zh": "科学减脂餐"
+    },
+    {
+      "en": "Chinese & Western Cuisines",
+      "zh": "中西餐研发"
+    },
+    {
+      "en": "Regional Cult Delicacies",
+      "zh": "区域邪教美食"
+    },
+    {
+      "en": "Recipe Cost & Nutrition",
+      "zh": "热量与成本精算"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "我想吃正宗川味水煮牛肉，请帮我生成【原教旨版】与【科学减脂版】双方案（精确到克重与油温）。",
+      "en": "Generate both an authentic and a fat-loss version of Sichuan Boiled Beef with exact gram measurements and temperatures."
+    },
+    {
+      "zh": "帮我计算TDEE并定制一份28天碳水循环减脂食谱（女，28岁，165cm，62kg，每周运动3次）。",
+      "en": "Calculate my TDEE and create a 28-day carb-cycling fat-loss meal plan (Female, 28yo, 165cm, 62kg, moderate exercise)."
+    },
+    {
+      "zh": "帮我联网拆解『广西横县鱼生』和『黔东南百草牛瘪火锅』的正宗配方，并做食品安全红线审计。",
+      "en": "Fetch and assemble the authentic formulas for Hengxian Raw Fish and Guizhou Niubie Hotpot with food safety redline audits."
+    },
+    {
+      "zh": "我要摆摊做『潮汕毒药生腌虾蟹』和『柳州螺蛳粉』，请给出50人份商用备料克重表与BOM毛利核算。",
+      "en": "Provide a 50-serving commercial batch scaling table and BOM gross margin analysis for Chaoshan Raw Marinated Seafood and Liuzhou Luosifen."
+    }
   ]
 }
